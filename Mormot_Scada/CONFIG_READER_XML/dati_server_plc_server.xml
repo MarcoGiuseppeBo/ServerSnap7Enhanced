@@ -1,0 +1,434 @@
+<data_plc_server NAME_SERVER="SCADA Server">
+   <PLC NAME_PLC="Freudenberg" TYPE_AND_MANUFACTURER="SIEMENS" DESCRIPTION="210027" BCK_ADR_ADS="" BCK_PORT_ADS="" SIE_IPADR="127.0.0.1" SIE_IPADR_RACK="0" SIE_IPADR_SLOT="1">
+      <PLCVARS>
+
+
+         <PLCVARzz>
+
+            <DS_Ricetta_From_HMI MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="107" OFFSET_ON_PLC="0" PLCVAR_VSIZE="3318">
+
+               <DEF_VAR_PLC>
+
+               <Ricetta              NAME_ON_PLC="Ricetta"                TYPE_ON_PLC="RECORD"     VOFF="0"   VSIZE="3318" >
+
+                  <DataInvio         NAME_ON_PLC="DataInvio"              TYPE_ON_PLC="REAL"       VOFF="0"   VSIZE="4"    />
+
+                  <DatasetGlobal     NAME_ON_PLC="DatasetGlobal"          TYPE_ON_PLC="RECORD"     VOFF="4"   VSIZE="194"  >
+
+                     <Nome           NAME_ON_PLC="Nome"                   TYPE_ON_PLC="STRING[32]" VOFF="0"   VSIZE="34"   />
+
+                     <DATO           NAME_ON_PLC="DATO"                   TYPE_ON_PLC="REAL"       VOFF="34"  VSIZE="160"  ARRAY="[0..39]" />
+
+                  </DatasetGlobal>
+
+                  <DatasetCycleStep  NAME_ON_PLC="DatasetCycleStep"       TYPE_ON_PLC="RECORD"     VOFF="198" VSIZE="3120" >
+
+                     <STEP           NAME_ON_PLC="STEP"                   TYPE_ON_PLC="RECORD"     VOFF="0"   VSIZE="3120" ARRAY="[1..20]" >
+
+                        <Funct       NAME_ON_PLC="Funct"                  TYPE_ON_PLC="RECORD"     VOFF="0"   VSIZE="156"  ARRAY="[1..6]" >
+
+                           <Model    NAME_ON_PLC="Model"                  TYPE_ON_PLC="INT"        VOFF="0"   VSIZE="2"    />
+
+                           <Data1    NAME_ON_PLC="Data1"                  TYPE_ON_PLC="REAL"       VOFF="2"   VSIZE="4"    />
+
+                           <Data2    NAME_ON_PLC="Data2"                  TYPE_ON_PLC="REAL"       VOFF="6"   VSIZE="4"    />
+
+                           <Data3    NAME_ON_PLC="Data3"                  TYPE_ON_PLC="REAL"       VOFF="10"  VSIZE="4"    />
+
+                           <Data4    NAME_ON_PLC="Data4"                  TYPE_ON_PLC="REAL"       VOFF="14"  VSIZE="4"    />
+
+                           <Data5    NAME_ON_PLC="Data5"                  TYPE_ON_PLC="REAL"       VOFF="18"  VSIZE="4"    />
+
+                           <Data6    NAME_ON_PLC="Data6"                  TYPE_ON_PLC="REAL"       VOFF="22"  VSIZE="4"    />
+
+                        </Funct>
+
+                     </STEP>
+
+                  </DatasetCycleStep>
+
+               </Ricetta>
+
+               </DEF_VAR_PLC>
+
+            </DS_Ricetta_From_HMI>
+
+         </PLCVARzz>
+
+
+
+         <PLCVAR>
+
+            <DS_HMI_Manuali MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="106" OFFSET_ON_PLC="0" PLCVAR_VSIZE="5">
+
+               <DEF_VAR_PLC>
+
+               <ManSel_BoxTagCurr     NAME_ON_PLC="ManSel_BoxTagCurr"       TYPE_ON_PLC="INT"  VOFF="0" VSIZE="2" />
+
+               <ManSel_BoxTagAck      NAME_ON_PLC="ManSel_BoxTagAck"        TYPE_ON_PLC="INT"  VOFF="2" VSIZE="2" />
+
+               <ManSel_BoxTagInhibit  NAME_ON_PLC="ManSel_BoxTagInhibit"    TYPE_ON_PLC="BIT"  VOFF="4" VSIZE="1" BITPOS="0" />
+
+               </DEF_VAR_PLC>
+
+            </DS_HMI_Manuali>
+
+         </PLCVAR>
+
+
+
+         <PLCVAR>
+
+            <DS_HMI MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="105" OFFSET_ON_PLC="0" PLCVAR_VSIZE="1260">
+
+               <DEF_VAR_PLC>
+
+               <override            NAME_ON_PLC="override"              TYPE_ON_PLC="REAL"       VOFF="0"    VSIZE="4"   />
+
+               <CMD                 NAME_ON_PLC="CMD"                   TYPE_ON_PLC="RECORD"     VOFF="4"    VSIZE="2"   >
+
+                  <ResetAllarmi     NAME_ON_PLC="ResetAllarmi"          TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="0" />
+
+                  <EmptyMode        NAME_ON_PLC="EmptyMode"             TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="1" />
+
+                  <StepByStep       NAME_ON_PLC="StepByStep"            TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="2" />
+
+                  <LampTest         NAME_ON_PLC="LampTest"              TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="3" />
+
+                  <SetClock         NAME_ON_PLC="SetClock"              TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="4" />
+
+                  <ResetPArziale    NAME_ON_PLC="ResetPArziale"         TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="5" />
+
+               </CMD>
+
+               <CMD_Pulse           NAME_ON_PLC="CMD_Pulse"             TYPE_ON_PLC="BIT"        VOFF="6"    VSIZE="2"   ARRAY="[0..15]" />
+
+               <HS_Dataset          NAME_ON_PLC="HS_Dataset"            TYPE_ON_PLC="INT"        VOFF="8"    VSIZE="2"   />
+
+               <msgStepMan          NAME_ON_PLC="msgStepMan"            TYPE_ON_PLC="STRING[48]" VOFF="10"   VSIZE="50"  />
+
+               <msgStepAutoManip    NAME_ON_PLC="msgStepAutoManip"      TYPE_ON_PLC="STRING[48]" VOFF="60"   VSIZE="50"  />
+
+               <msgStepAutoScarico  NAME_ON_PLC="msgStepAutoScarico"    TYPE_ON_PLC="STRING[48]" VOFF="110"  VSIZE="50"  />
+
+               <msgStepAutoOP01     NAME_ON_PLC="msgStepAutoOP01"       TYPE_ON_PLC="STRING[48]" VOFF="160"  VSIZE="50"  />
+
+               <msgStepAutoOP02     NAME_ON_PLC="msgStepAutoOP02"       TYPE_ON_PLC="STRING[48]" VOFF="210"  VSIZE="50"  />
+
+               <msgStepAutoOP03     NAME_ON_PLC="msgStepAutoOP03"       TYPE_ON_PLC="STRING[48]" VOFF="260"  VSIZE="50"  />
+
+               <InfoBit             NAME_ON_PLC="InfoBit"               TYPE_ON_PLC="BIT"        VOFF="310"  VSIZE="32"  ARRAY="[0..255]" />
+
+               <InfoReal            NAME_ON_PLC="InfoReal"              TYPE_ON_PLC="REAL"       VOFF="342"  VSIZE="128" ARRAY="[0..31]" />
+
+               <InfoDWord           NAME_ON_PLC="InfoDWord"             TYPE_ON_PLC="DWORD"      VOFF="470"  VSIZE="32"  ARRAY="[0..7]" />
+
+               <InfoInt             NAME_ON_PLC="InfoInt"               TYPE_ON_PLC="INT"        VOFF="502"  VSIZE="34"  ARRAY="[0..16]" />
+
+               <InfoDInt            NAME_ON_PLC="InfoDInt"              TYPE_ON_PLC="DINT"       VOFF="536"  VSIZE="68"  ARRAY="[0..16]" />
+
+               <InfoString          NAME_ON_PLC="InfoString"            TYPE_ON_PLC="STRING[64]" VOFF="604"  VSIZE="594" ARRAY="[0..8]" />
+
+               <EncoderReset        NAME_ON_PLC="EncoderReset"          TYPE_ON_PLC="RECORD"     VOFF="1198" VSIZE="54"  ARRAY="[0..8]" >
+
+                  <cmd              NAME_ON_PLC="cmd"                   TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="0" />
+
+                  <Value            NAME_ON_PLC="Value"                 TYPE_ON_PLC="REAL"       VOFF="2"    VSIZE="4"   />
+
+               </EncoderReset>
+
+               <CndStart            NAME_ON_PLC="CndStart"              TYPE_ON_PLC="RECORD"     VOFF="1252" VSIZE="2"   >
+
+                  <ackCnd1          NAME_ON_PLC="ackCnd1"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="0" />
+
+                  <ackCnd2          NAME_ON_PLC="ackCnd2"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="1" />
+
+                  <ackCnd3          NAME_ON_PLC="ackCnd3"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="2" />
+
+                  <ackCnd4          NAME_ON_PLC="ackCnd4"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="3" />
+
+                  <ackCnd5          NAME_ON_PLC="ackCnd5"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="4" />
+
+                  <ackCnd6          NAME_ON_PLC="ackCnd6"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="5" />
+
+                  <ackCnd7          NAME_ON_PLC="ackCnd7"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="6" />
+
+                  <ackCnd8          NAME_ON_PLC="ackCnd8"               TYPE_ON_PLC="BIT"        VOFF="0"    VSIZE="1"   BITPOS="7" />
+
+               </CndStart>
+
+               <DateTime            NAME_ON_PLC="DateTime"              TYPE_ON_PLC="RECORD"     VOFF="1254" VSIZE="6"   >
+
+                  <NewHour          NAME_ON_PLC="NewHour"               TYPE_ON_PLC="USINT"      VOFF="0"    VSIZE="1"   />
+
+                  <NewMinute        NAME_ON_PLC="NewMinute"             TYPE_ON_PLC="USINT"      VOFF="1"    VSIZE="1"   />
+
+                  <NewYear          NAME_ON_PLC="NewYear"               TYPE_ON_PLC="UINT"       VOFF="2"    VSIZE="2"   />
+
+                  <NewDay           NAME_ON_PLC="NewDay"                TYPE_ON_PLC="USINT"      VOFF="4"    VSIZE="1"   />
+
+                  <NewMonth         NAME_ON_PLC="NewMonth"              TYPE_ON_PLC="USINT"      VOFF="5"    VSIZE="1"   />
+
+               </DateTime>
+
+               </DEF_VAR_PLC>
+
+            </DS_HMI>
+
+         </PLCVAR>
+
+
+
+         <PLCVARzzz>
+
+            <DS_DB_WorkShifts MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="104" OFFSET_ON_PLC="0" PLCVAR_VSIZE="180">
+
+               <DEF_VAR_PLC>
+
+               <ActHour           NAME_ON_PLC="ActHour"             TYPE_ON_PLC="INT"    VOFF="0"  VSIZE="2"  />
+
+               <ActMin            NAME_ON_PLC="ActMin"              TYPE_ON_PLC="INT"    VOFF="2"  VSIZE="2"  />
+
+               <ActWorkShift      NAME_ON_PLC="ActWorkShift"        TYPE_ON_PLC="INT"    VOFF="4"  VSIZE="2"  />
+
+               <HistActWorkShift  NAME_ON_PLC="HistActWorkShift"    TYPE_ON_PLC="INT"    VOFF="6"  VSIZE="2"  />
+
+               <Spare             NAME_ON_PLC="Spare"               TYPE_ON_PLC="BYTE"   VOFF="8"  VSIZE="10" ARRAY="[1..10]" />
+
+               <MaxWorkShift      NAME_ON_PLC="MaxWorkShift"        TYPE_ON_PLC="INT"    VOFF="18" VSIZE="2"  />
+
+               <WorkShift         NAME_ON_PLC="WorkShift"           TYPE_ON_PLC="RECORD" VOFF="20" VSIZE="16" ARRAY="[1..4]" >
+
+                  <HourStart      NAME_ON_PLC="HourStart"           TYPE_ON_PLC="INT"    VOFF="0"  VSIZE="2"  />
+
+                  <MinStart       NAME_ON_PLC="MinStart"            TYPE_ON_PLC="INT"    VOFF="2"  VSIZE="2"  />
+
+               </WorkShift>
+
+               <ActData           NAME_ON_PLC="ActData"             TYPE_ON_PLC="RECORD" VOFF="36" VSIZE="24" >
+
+                  <Totale         NAME_ON_PLC="Totale"              TYPE_ON_PLC="DINT"   VOFF="0"  VSIZE="4"  />
+
+                  <Scarti         NAME_ON_PLC="Scarti"              TYPE_ON_PLC="DINT"   VOFF="4"  VSIZE="4"  />
+
+                  <Buoni          NAME_ON_PLC="Buoni"               TYPE_ON_PLC="DINT"   VOFF="8"  VSIZE="4"  />
+
+                  <TempoRun       NAME_ON_PLC="TempoRun"            TYPE_ON_PLC="REAL"   VOFF="12" VSIZE="4"  />
+
+                  <TempoFermo     NAME_ON_PLC="TempoFermo"          TYPE_ON_PLC="REAL"   VOFF="16" VSIZE="4"  />
+
+                  <TempoAllarme   NAME_ON_PLC="TempoAllarme"        TYPE_ON_PLC="REAL"   VOFF="20" VSIZE="4"  />
+
+               </ActData>
+
+               <EmptyData         NAME_ON_PLC="EmptyData"           TYPE_ON_PLC="RECORD" VOFF="60" VSIZE="24" >
+
+                  <Totale         NAME_ON_PLC="Totale"              TYPE_ON_PLC="DINT"   VOFF="0"  VSIZE="4"  />
+
+                  <Scarti         NAME_ON_PLC="Scarti"              TYPE_ON_PLC="DINT"   VOFF="4"  VSIZE="4"  />
+
+                  <Buoni          NAME_ON_PLC="Buoni"               TYPE_ON_PLC="DINT"   VOFF="8"  VSIZE="4"  />
+
+                  <TempoRun       NAME_ON_PLC="TempoRun"            TYPE_ON_PLC="REAL"   VOFF="12" VSIZE="4"  />
+
+                  <TempoFermo     NAME_ON_PLC="TempoFermo"          TYPE_ON_PLC="REAL"   VOFF="16" VSIZE="4"  />
+
+                  <TempoAllarme   NAME_ON_PLC="TempoAllarme"        TYPE_ON_PLC="REAL"   VOFF="20" VSIZE="4"  />
+
+               </EmptyData>
+
+               <DataRecord        NAME_ON_PLC="DataRecord"          TYPE_ON_PLC="RECORD" VOFF="84" VSIZE="96" ARRAY="[1..4]" >
+
+                  <Totale         NAME_ON_PLC="Totale"              TYPE_ON_PLC="DINT"   VOFF="0"  VSIZE="4"  />
+
+                  <Scarti         NAME_ON_PLC="Scarti"              TYPE_ON_PLC="DINT"   VOFF="4"  VSIZE="4"  />
+
+                  <Buoni          NAME_ON_PLC="Buoni"               TYPE_ON_PLC="DINT"   VOFF="8"  VSIZE="4"  />
+
+                  <TempoRun       NAME_ON_PLC="TempoRun"            TYPE_ON_PLC="REAL"   VOFF="12" VSIZE="4"  />
+
+                  <TempoFermo     NAME_ON_PLC="TempoFermo"          TYPE_ON_PLC="REAL"   VOFF="16" VSIZE="4"  />
+
+                  <TempoAllarme   NAME_ON_PLC="TempoAllarme"        TYPE_ON_PLC="REAL"   VOFF="20" VSIZE="4"  />
+
+               </DataRecord>
+
+               </DEF_VAR_PLC>
+
+            </DS_DB_WorkShifts>
+
+         </PLCVARzzz>
+
+
+
+         <PLCVARzzz>
+
+            <DS_DB_DateTime MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="103" OFFSET_ON_PLC="0" PLCVAR_VSIZE="30">
+
+               <DEF_VAR_PLC>
+
+               <NewDate          NAME_ON_PLC="NewDate"            TYPE_ON_PLC="RECORD" VOFF="0"  VSIZE="12" >
+
+                  <YEAR          NAME_ON_PLC="YEAR"               TYPE_ON_PLC="UINT"   VOFF="0"  VSIZE="2"  />
+
+                  <MONTH         NAME_ON_PLC="MONTH"              TYPE_ON_PLC="USINT"  VOFF="2"  VSIZE="1"  />
+
+                  <DAY           NAME_ON_PLC="DAY"                TYPE_ON_PLC="USINT"  VOFF="3"  VSIZE="1"  />
+
+                  <WEEKDAY       NAME_ON_PLC="WEEKDAY"            TYPE_ON_PLC="USINT"  VOFF="4"  VSIZE="1"  />
+
+                  <HOUR          NAME_ON_PLC="HOUR"               TYPE_ON_PLC="USINT"  VOFF="5"  VSIZE="1"  />
+
+                  <MINUTE        NAME_ON_PLC="MINUTE"             TYPE_ON_PLC="USINT"  VOFF="6"  VSIZE="1"  />
+
+                  <SECOND        NAME_ON_PLC="SECOND"             TYPE_ON_PLC="USINT"  VOFF="7"  VSIZE="1"  />
+
+                  <NANOSECOND    NAME_ON_PLC="NANOSECOND"         TYPE_ON_PLC="UDINT"  VOFF="8"  VSIZE="4"  />
+
+               </NewDate>
+
+               <SystemDate       NAME_ON_PLC="SystemDate"         TYPE_ON_PLC="RECORD" VOFF="12" VSIZE="12" >
+
+                  <YEAR          NAME_ON_PLC="YEAR"               TYPE_ON_PLC="UINT"   VOFF="0"  VSIZE="2"  />
+
+                  <MONTH         NAME_ON_PLC="MONTH"              TYPE_ON_PLC="USINT"  VOFF="2"  VSIZE="1"  />
+
+                  <DAY           NAME_ON_PLC="DAY"                TYPE_ON_PLC="USINT"  VOFF="3"  VSIZE="1"  />
+
+                  <WEEKDAY       NAME_ON_PLC="WEEKDAY"            TYPE_ON_PLC="USINT"  VOFF="4"  VSIZE="1"  />
+
+                  <HOUR          NAME_ON_PLC="HOUR"               TYPE_ON_PLC="USINT"  VOFF="5"  VSIZE="1"  />
+
+                  <MINUTE        NAME_ON_PLC="MINUTE"             TYPE_ON_PLC="USINT"  VOFF="6"  VSIZE="1"  />
+
+                  <SECOND        NAME_ON_PLC="SECOND"             TYPE_ON_PLC="USINT"  VOFF="7"  VSIZE="1"  />
+
+                  <NANOSECOND    NAME_ON_PLC="NANOSECOND"         TYPE_ON_PLC="UDINT"  VOFF="8"  VSIZE="4"  />
+
+               </SystemDate>
+
+               <SetNewDate       NAME_ON_PLC="SetNewDate"         TYPE_ON_PLC="BIT"    VOFF="24" VSIZE="1"  BITPOS="0" />
+
+               <RetValWriteDate  NAME_ON_PLC="RetValWriteDate"    TYPE_ON_PLC="INT"    VOFF="26" VSIZE="2"  />
+
+               <RetValReadDate   NAME_ON_PLC="RetValReadDate"     TYPE_ON_PLC="INT"    VOFF="28" VSIZE="2"  />
+
+               </DEF_VAR_PLC>
+
+            </DS_DB_DateTime>
+
+         </PLCVARzzz>
+
+
+
+         <PLCVARzzz>
+
+            <DS_DatiProduzione MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="102" OFFSET_ON_PLC="0" PLCVAR_VSIZE="100">
+
+               <DEF_VAR_PLC>
+
+               <RicettaAttiva       NAME_ON_PLC="RicettaAttiva"         TYPE_ON_PLC="STRING[32]" VOFF="0"  VSIZE="34" />
+
+               <TempoCiclo          NAME_ON_PLC="TempoCiclo"            TYPE_ON_PLC="TIME"       VOFF="34" VSIZE="4"  />
+
+               <ProduzioneParziale  NAME_ON_PLC="ProduzioneParziale"    TYPE_ON_PLC="DINT"       VOFF="38" VSIZE="4"  />
+
+               <ProduzioneTotale    NAME_ON_PLC="ProduzioneTotale"      TYPE_ON_PLC="DINT"       VOFF="42" VSIZE="4"  />
+
+               <ProduzioneLotto     NAME_ON_PLC="ProduzioneLotto"       TYPE_ON_PLC="DINT"       VOFF="46" VSIZE="4"  />
+
+               <ScartiLotto         NAME_ON_PLC="ScartiLotto"           TYPE_ON_PLC="RECORD"     VOFF="50" VSIZE="16" >
+
+                  <Diametro         NAME_ON_PLC="Diametro"              TYPE_ON_PLC="DINT"       VOFF="0"  VSIZE="4"  />
+
+                  <Altezza          NAME_ON_PLC="Altezza"               TYPE_ON_PLC="DINT"       VOFF="4"  VSIZE="4"  />
+
+                  <OP02             NAME_ON_PLC="OP02"                  TYPE_ON_PLC="DINT"       VOFF="8"  VSIZE="4"  />
+
+                  <OP03             NAME_ON_PLC="OP03"                  TYPE_ON_PLC="DINT"       VOFF="12" VSIZE="4"  />
+
+               </ScartiLotto>
+
+               <ScartiTotale        NAME_ON_PLC="ScartiTotale"          TYPE_ON_PLC="RECORD"     VOFF="66" VSIZE="16" >
+
+                  <Diametro         NAME_ON_PLC="Diametro"              TYPE_ON_PLC="DINT"       VOFF="0"  VSIZE="4"  />
+
+                  <Altezza          NAME_ON_PLC="Altezza"               TYPE_ON_PLC="DINT"       VOFF="4"  VSIZE="4"  />
+
+                  <OP02             NAME_ON_PLC="OP02"                  TYPE_ON_PLC="DINT"       VOFF="8"  VSIZE="4"  />
+
+                  <OP03             NAME_ON_PLC="OP03"                  TYPE_ON_PLC="DINT"       VOFF="12" VSIZE="4"  />
+
+               </ScartiTotale>
+
+               <ScartiParziale      NAME_ON_PLC="ScartiParziale"        TYPE_ON_PLC="RECORD"     VOFF="82" VSIZE="16" >
+
+                  <Diametro         NAME_ON_PLC="Diametro"              TYPE_ON_PLC="DINT"       VOFF="0"  VSIZE="4"  />
+
+                  <Altezza          NAME_ON_PLC="Altezza"               TYPE_ON_PLC="DINT"       VOFF="4"  VSIZE="4"  />
+
+                  <OP02             NAME_ON_PLC="OP02"                  TYPE_ON_PLC="DINT"       VOFF="8"  VSIZE="4"  />
+
+                  <OP03             NAME_ON_PLC="OP03"                  TYPE_ON_PLC="DINT"       VOFF="12" VSIZE="4"  />
+
+               </ScartiParziale>
+
+               <cmd                 NAME_ON_PLC="cmd"                   TYPE_ON_PLC="RECORD"     VOFF="98" VSIZE="2"  >
+
+                  <IncGood          NAME_ON_PLC="IncGood"               TYPE_ON_PLC="BIT"        VOFF="0"  VSIZE="1"  BITPOS="0" />
+
+                  <IncReject        NAME_ON_PLC="IncReject"             TYPE_ON_PLC="BIT"        VOFF="0"  VSIZE="1"  BITPOS="1" />
+
+                  <osrGood          NAME_ON_PLC="osrGood"               TYPE_ON_PLC="BIT"        VOFF="0"  VSIZE="1"  BITPOS="2" />
+
+                  <osrReject        NAME_ON_PLC="osrReject"             TYPE_ON_PLC="BIT"        VOFF="0"  VSIZE="1"  BITPOS="3" />
+
+               </cmd>
+
+               </DEF_VAR_PLC>
+
+            </DS_DatiProduzione>
+
+         </PLCVARzzz>
+
+
+
+         <PLCVARzzz>
+
+            <DS_DatiMacchina_HMI MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="101" OFFSET_ON_PLC="0" PLCVAR_VSIZE="260">
+
+               <DEF_VAR_PLC>
+
+               <Dato  NAME_ON_PLC="Dato"    TYPE_ON_PLC="REAL" VOFF="0" VSIZE="260" ARRAY="[0..64]" />
+
+               </DEF_VAR_PLC>
+
+            </DS_DatiMacchina_HMI>
+
+         </PLCVARzzz>
+
+
+
+         <PLCVAR>
+
+            <DS_Allarmi_HMI MODE_LETTURA="MANUAL" TIME_READ_INTERVAL="500" NAME_ON_PLC="100" OFFSET_ON_PLC="0" PLCVAR_VSIZE="88">
+
+               <DEF_VAR_PLC>
+
+               <alm      NAME_ON_PLC="alm"        TYPE_ON_PLC="BIT"  VOFF="0"  VSIZE="64" ARRAY="[1..512]" />
+
+               <warning  NAME_ON_PLC="warning"    TYPE_ON_PLC="BIT"  VOFF="64" VSIZE="8"  ARRAY="[1..64]" />
+
+               <msg      NAME_ON_PLC="msg"        TYPE_ON_PLC="BIT"  VOFF="72" VSIZE="16" ARRAY="[1..128]" />
+
+               </DEF_VAR_PLC>
+
+            </DS_Allarmi_HMI>
+
+         </PLCVAR>
+
+
+
+      </PLCVARS>
+   </PLC>
+</data_plc_server>
