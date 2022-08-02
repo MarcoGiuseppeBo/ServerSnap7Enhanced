@@ -7,7 +7,7 @@ See the manual Snap 7 Server Enhanced_manual.docx
 
 How to compile:
 Use Delphi from 10.1(Berlin) to 11(Alexandria). I use Sydney
-Open project  and add <C:\ServerSnap7Enhanced\main\mormot\mORMot-master;> and <C:\ServerSnap7Enhanced\main\mormot\SQLite3> to library-path and browser-path in the option/language/delphi/library or add your mORMot library path
+Open project  and add <C:\ServerSnap7Enhanced\main\mormot\mORMot-master;> and <C:\ServerSnap7Enhanced\main\mormot\SQLite3> to library-path and browser-path in the option/language/delphi/library or add your mORMot library path for win64 and win32
 
 Select win32 o win64 target
 Build project 
