@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="util"/>
+    <File Path="util\logthread4.pas"/>
+    <File Path="util\mORMotSCADAUtils.pas"/>
+    <File Path="util\U_get_version.pas"/>
+    <File Path="util\U_tarrayofbyte.pas"/>
+    <File Path="u_tfrmserver.pas"/>
+    <File Path="u_tfrmserver.dfm"/>
+    <File Path="U_Snap7_reader_and_writer_block_fake.pas"/>
+    <File Path="U_mormot_datamodule_utils_fake.pas"/>
+    <File Path="U_mormot_datamodule_utils_fake.dfm"/>
+    <File Path="u_def_param_db.pas"/>
+    <File Path="u_change_value.pas"/>
+    <File Path="u_change_value.dfm"/>
+    <File Path="U_request_file_xml_db.pas"/>
+    <File Path="U_request_file_xml_db.dfm"/>
+    <File Path="import_siemens"/>
+    <File Path="import_siemens\U_dm_import_data_engine.pas"/>
+    <File Path="import_siemens\U_dm_import_data_engine.dfm"/>
+    <File Path="snap7"/>
+    <File Path="snap7\snap7.pas"/>
+    <File Path="param.ini"/>
+  </ProjectSortOrder>
+  <Transactions>
+    <Transaction>2022/08/02 16:25:20.625,=C:\test_github\ServerSnap7Enhanced\main\import_siemens\U_dm_import_data_engine.pas</Transaction>
+    <Transaction>2022/08/02 16:25:51.782,=C:\test_github\ServerSnap7Enhanced\main\util\logthread4.pas</Transaction>
+    <Transaction>2022/08/02 16:25:51.813,=C:\test_github\ServerSnap7Enhanced\main\util\mORMotSCADAUtils.pas</Transaction>
+    <Transaction>2022/08/02 16:25:51.860,=C:\test_github\ServerSnap7Enhanced\main\util\U_get_version.pas</Transaction>
+    <Transaction>2022/08/02 16:25:51.891,=C:\test_github\ServerSnap7Enhanced\main\util\U_tarrayofbyte.pas</Transaction>
+    <Transaction>2022/08/02 16:26:26.089,=C:\test_github\ServerSnap7Enhanced\main\snap7\snap7.pas</Transaction>
+    <Transaction>2022/08/02 16:53:36.131,C:\test_github\ServerSnap7Enhanced\main\Server_snap7_enhanced.dproj=C:\test_github\ServerSnap7Enhanced\main\Pmy_server_snap7_enhanced.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
