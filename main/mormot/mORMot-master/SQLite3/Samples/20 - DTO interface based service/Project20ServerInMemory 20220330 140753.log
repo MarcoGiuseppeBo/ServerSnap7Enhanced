@@ -1,0 +1,48 @@
+C:\!mysw\mORMot-master\SQLite3\Samples\20 - DTO interface based service\Project20ServerInMemory.exe 0.0.0.0 (2022-03-30 14:07:52)
+Host=MARCOBO-SYDNEY User=Administrator CPU=5x11thGenIntel(R)Core(TM)i7-11800H@2.30GHz(x86)*9-6-36097:FFFB8B1F0332FAFFEB279FF108400000000400BC OS=15.0=6.2.9200 Wow64=1 Freq=10000000
+Environment variables=ALLUSERSPROFILE=C:\ProgramData	APPDATA=C:\Users\Administrator\AppData\Roaming	BDS=c:\program files (x86)\embarcadero\studio\21.0	BDSAppDataBaseDir=BDS	BDSBIN=c:\program files (x86)\embarcadero\studio\21.0\bin	BDSCatalogRepository=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCatalogRepositoryAllUsers=C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCOMMONDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0	BDSINCLUDE=c:\program files (x86)\embarcadero\studio\21.0\include	BDSLIB=c:\program files (x86)\embarcadero\studio\21.0\lib	BDSPLATFORMSDKSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\SDKs	BDSPROFILESDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Profiles	BDSPROJECTSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects	BDSUSERDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0	CommonProgramFiles=C:\Program Files (x86)\Common Files	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files	CommonProgramW6432=C:\Program Files\Common Files	COMPUTERNAME=MARCOBO-SYDNEY	ComSpec=C:\Windows\system32\cmd.exe	DELPHI=c:\program files (x86)\embarcadero\studio\21.0	DEMOSDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0\Samples	DriverData=C:\Windows\System32\Drivers\DriverData	DXVCL=C:\Program Files (x86)\DevExpress\VCL	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer	FPS_BROWSER_USER_PROFILE_STRING=Default	HOMEDRIVE=C:	HOMEPATH=\Users\Administrator	IBREDISTDIR=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020	IB_PROTOCOL=gds_db	InterBase=c:\program files (x86)\embarcadero\studio\21.0\InterBase2020	LOCALAPPDATA=C:\Users\Administrator\AppData\Local	LOGONSERVER=\\MARCOBO-SYDNEY	NUMBER_OF_PROCESSORS=5	OneDrive=C:\Users\Administrator\OneDrive	OS=Windows_NT	Path=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC	PROCESSOR_ARCHITECTURE=x86	PROCESSOR_ARCHITEW6432=AMD64	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 141 Stepping 1, GenuineIntel	PROCESSOR_LEVEL=6	PROCESSOR_REVISION=8d01	ProductVersion=21.0	ProgramData=C:\ProgramData	ProgramFiles=C:\Program Files (x86)	ProgramFiles(x86)=C:\Program Files (x86)	ProgramW6432=C:\Program Files	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\	PUBLIC=C:\Users\Public	SESSIONNAME=Console	SystemDrive=C:	SystemRoot=C:\Windows	TEMP=C:\Users\ADMINI~1\AppData\Local\Temp	TMP=C:\Users\ADMINI~1\AppData\Local\Temp	TWINCAT3DIR=C:\TwinCAT\3.1\	TWINCATSDK=C:\TwinCAT\3.1\SDK\	USERDOMAIN=MARCOBO-SYDNEY	USERDOMAIN_ROAMINGPROFILE=MARCOBO-SYDNEY	USERNAME=Administrator	USERPROFILE=C:\Users\Administrator	windir=C:\Windows
+TSynLog 1.18.6308 2022-03-30T12:07:53
+
+20220330 12075316 info  SetThreadName 3678=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 39b0=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 1894=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 33dc=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3ad4=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3154=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3f00=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3478=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 0188=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2df0=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2dc4=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2ee0=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2bbc=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 41d4=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 1f18=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 356c=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2860=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 34e4=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 0a18=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2d3c=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 4054=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 19cc=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3b34=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3eac=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 371c=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2fb0=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 413c=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 37bc=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 3d4c=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 24fc=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 2be0=HttpSvr 888/project20 THttpApiSvr
+20220330 12075316 info  SetThreadName 42d0=HttpSvr 888/project20 THttpApiSvr
+20220330 12080322 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   GET project20/Timestamp Method=200 out=12 B in 22us
+20220330 12080322 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService._contract_ Interface=200 out=31 B in 19us
+20220330 12080322 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 101us
+20220330 12082662 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 60us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 58us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 33us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 34us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 27us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 21us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=200 out=306 B in 18us
+20220330 12083803 srvr  mORMot.TSQLRestServerFullMemory(024dbf70)   POST project20/AirportService.GetAirportDefinition Interface=

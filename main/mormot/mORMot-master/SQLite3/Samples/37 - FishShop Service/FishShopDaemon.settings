@@ -1,0 +1,7 @@
+{
+	"ServiceName": "FishShopDaemon",
+	"ServiceDisplayName": "FishShopDaemon",
+	"Log": ["sllError","sllLastError","sllException","sllExceptionOS","sllNewRun","sllDDDError"], // "*" or a set of "sllNone","sllInfo","sllDebug","sllTrace","sllWarning","sllError","sllEnter","sllLeave","sllLastError","sllException","sllExceptionOS","sllMemory","sllStackTrace","sllFail","sllSQL","sllCache","sllResult","sllDB","sllHTTP","sllClient","sllServer","sllServiceCall","sllServiceReturn","sllUserAuth","sllCustom1","sllCustom2","sllCustom3","sllCustom4","sllNewRun","sllDDDError","sllDDDInfo","sllMonitoring"
+	"LogPath": "C:\\!mysw\\mORMot-master\\SQLite3\\Samples\\37 - FishShop Service\\",
+	"LogRotateFileCount": 2
+}

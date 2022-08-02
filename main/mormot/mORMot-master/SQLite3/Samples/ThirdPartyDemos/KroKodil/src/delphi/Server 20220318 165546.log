@@ -1,0 +1,222 @@
+C:\!mysw\mORMot-master\SQLite3\Samples\ThirdPartyDemos\KroKodil\src\delphi\Server.exe 1.0.0.0 (2022-03-18 16:55:45)
+Host=MARCOBO-SYDNEY User=Administrator CPU=5x11thGenIntel(R)Core(TM)i7-11800H@2.30GHz(x86)*9-6-36097:FFFB8B1F0332FAFFEB279FF108400000000400BC OS=23.0=10.0.19043 Wow64=1 Freq=10000000
+Environment variables=ALLUSERSPROFILE=C:\ProgramData	APPDATA=C:\Users\Administrator\AppData\Roaming	BDS=c:\program files (x86)\embarcadero\studio\21.0	BDSAppDataBaseDir=BDS	BDSBIN=c:\program files (x86)\embarcadero\studio\21.0\bin	BDSCatalogRepository=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCatalogRepositoryAllUsers=C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCOMMONDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0	BDSINCLUDE=c:\program files (x86)\embarcadero\studio\21.0\include	BDSLIB=c:\program files (x86)\embarcadero\studio\21.0\lib	BDSPLATFORMSDKSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\SDKs	BDSPROFILESDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Profiles	BDSPROJECTSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects	BDSUSERDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0	CommonProgramFiles=C:\Program Files (x86)\Common Files	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files	CommonProgramW6432=C:\Program Files\Common Files	COMPUTERNAME=MARCOBO-SYDNEY	ComSpec=C:\Windows\system32\cmd.exe	DELPHI=c:\program files (x86)\embarcadero\studio\21.0	DEMOSDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0\Samples	DriverData=C:\Windows\System32\Drivers\DriverData	DXVCL=C:\Program Files (x86)\DevExpress\VCL	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer	FPS_BROWSER_USER_PROFILE_STRING=Default	HOMEDRIVE=C:	HOMEPATH=\Users\Administrator	IBREDISTDIR=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020	IB_PROTOCOL=gds_db	InterBase=c:\program files (x86)\embarcadero\studio\21.0\InterBase2020	LOCALAPPDATA=C:\Users\Administrator\AppData\Local	LOGONSERVER=\\MARCOBO-SYDNEY	NUMBER_OF_PROCESSORS=5	OneDrive=C:\Users\Administrator\OneDrive	OneDriveConsumer=C:\Users\Administrator\OneDrive	OS=Windows_NT	Path=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC	PROCESSOR_ARCHITECTURE=x86	PROCESSOR_ARCHITEW6432=AMD64	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 141 Stepping 1, GenuineIntel	PROCESSOR_LEVEL=6	PROCESSOR_REVISION=8d01	ProductVersion=21.0	ProgramData=C:\ProgramData	ProgramFiles=C:\Program Files (x86)	ProgramFiles(x86)=C:\Program Files (x86)	ProgramW6432=C:\Program Files	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules	PUBLIC=C:\Users\Public	SESSIONNAME=Console	SystemDrive=C:	SystemRoot=C:\Windows	TEMP=C:\Users\ADMINI~1\AppData\Local\Temp	TMP=C:\Users\ADMINI~1\AppData\Local\Temp	TWINCAT3DIR=C:\TwinCAT\3.1\	TWINCATSDK=C:\TwinCAT\3.1\SDK\	USERDOMAIN=MARCOBO-SYDNEY	USERDOMAIN_ROAMINGPROFILE=MARCOBO-SYDNEY	USERNAME=Administrator	USERPROFILE=C:\Users\Administrator	windir=C:\Windows
+TSynLog 1.18.6308 2022-03-18T15:55:46
+
+20220318 15554641 info  Starting
+20220318 15554641  +    SynSQLite3.TSQLDatabase(0292dc00).DBOpen server.db3
+20220318 15554641 SQL   	SynSQLite3.TSQLDatabase(0292dc00) 97us server.db3 PRAGMA page_size=4096 = true
+20220318 15554641 SQL   	SynSQLite3.TSQLDatabase(0292dc00) 263us server.db3 PRAGMA cache_size=10000 = true
+20220318 15554641 SQL   	SynSQLite3.TSQLDatabase(0292dc00) 74us server.db3 select count(*) from sqlite_master = true
+20220318 15554641 DB    	SynSQLite3.TSQLDatabase(0292dc00) "server.db3" database file (0 B) opened with PageSize=4096 CacheSize=10000 (39 MB)
+20220318 15554641  -    00.001.173
+20220318 15554641 SQL   SynSQLite3.TSQLDatabase(0292dc00) 149us server.db3 returned 0 rows SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+20220318 15554641 DB    mORMotSQLite3.TSQLRestServerDB(04d0dd50) CreateMissingTables on {"TSQLDatabase(0292dc00)":{"FileName":"server.db3","UseCache":true,"UseCacheSize":16777216,"CacheSize":10000,"PageSize":4096,"Synchronous":"smFull","OpenV2Flags":6,"SQLite3Library":{"TSQLite3LibraryStatic(028e3080)":{"Version":"TSQLite3LibraryStatic 3.35.5 with internal MM"}}}}
+20220318 15554641 DB    mORMotSQLite3.TSQLRestServerDB(04d0dd50) GetTables=[]
+20220318 15554641 SQL   SynSQLite3.TSQLDatabase(0292dc00) 2us server.db3 BEGIN TRANSACTION;
+20220318 15554641 SQL   SynSQLite3.TSQLDatabase(0292dc00) 633us server.db3 CREATE TABLE SampleRecord(ID INTEGER PRIMARY KEY AUTOINCREMENT, Time INTEGER, Name TEXT COLLATE SYSTEMNOCASE, Question TEXT COLLATE SYSTEMNOCASE);
+20220318 15554641 SQL   SynSQLite3.TSQLDatabase(0292dc00) 74us server.db3 CREATE TABLE AuthGroup(ID INTEGER PRIMARY KEY AUTOINCREMENT, Ident TEXT COLLATE SYSTEMNOCASE UNIQUE, SessionTimeout INTEGER, AccessRights TEXT COLLATE SYSTEMNOCASE);
+20220318 15554641 SQL   SynSQLite3.TSQLDatabase(0292dc00) 59us server.db3 CREATE TABLE AuthUser(ID INTEGER PRIMARY KEY AUTOINCREMENT, LogonName TEXT COLLATE SYSTEMNOCASE UNIQUE, DisplayName TEXT COLLATE SYSTEMNOCASE, PasswordHashHexa TEXT COLLATE SYSTEMNOCASE, GroupRights INTEGER, Data BLOB);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 49us  CREATE INDEX IF NOT EXISTS IndexAuthGroupIdent ON AuthGroup(Ident);
+20220318 15554641 DB    mORMotSQLite3.TSQLRestServerDB(04d0dd50) prepared 10us server.db3 INSERT INTO AuthGroup (Ident,SessionTimeout,AccessRights) VALUES (?,?,?);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 9us  lastInsertedID=1 INSERT INTO AuthGroup (Ident,SessionTimeout,AccessRights) VALUES (:('Admin'):,:(10):,:('47,1-256,0,1-256,0,1-256,0,1-256,0'):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 5us  lastInsertedID=2 INSERT INTO AuthGroup (Ident,SessionTimeout,AccessRights) VALUES (:('Supervisor'):,:(60):,:('46,1-256,0,1,4-256,0,1,4-256,0,1,4-256,0'):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 3us  lastInsertedID=3 INSERT INTO AuthGroup (Ident,SessionTimeout,AccessRights) VALUES (:('User'):,:(60):,:('14,1,4-256,0,1,4-256,0,1,4-256,0,1,4-256,0'):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 16us  lastInsertedID=4 INSERT INTO AuthGroup (Ident,SessionTimeout,AccessRights) VALUES (:('Guest'):,:(60):,:('0,1,4-256,0,0,0,0'):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 16us returned 1 row as 17 B SELECT Count(*) FROM AuthUser
+20220318 15554641 res   SynSQLite3.TSQLDatabase(0292dc00) [{"Count(*)":0}] 
+20220318 15554641 cache SynSQLite3.TSQLDatabase(0292dc00) server.db3 cache flushed
+20220318 15554641 DB    mORMotSQLite3.TSQLRestServerDB(04d0dd50) prepared 9us server.db3 INSERT INTO AuthUser (LogonName,DisplayName,PasswordHashHexa,GroupRights) VALUES (?,?,?,?);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 7us  lastInsertedID=1 INSERT INTO AuthUser (LogonName,DisplayName,PasswordHashHexa,GroupRights) VALUES (:('Admin'):,:('Admin'):,:('67aeea294e1cb515236fd7829c55ec820ef888e8e221814d24d83b3dc4d825dd'):,:(1):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 4us  lastInsertedID=2 INSERT INTO AuthUser (LogonName,DisplayName,PasswordHashHexa,GroupRights) VALUES (:('Supervisor'):,:('Supervisor'):,:('67aeea294e1cb515236fd7829c55ec820ef888e8e221814d24d83b3dc4d825dd'):,:(2):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 5us  lastInsertedID=3 INSERT INTO AuthUser (LogonName,DisplayName,PasswordHashHexa,GroupRights) VALUES (:('User'):,:('User'):,:('67aeea294e1cb515236fd7829c55ec820ef888e8e221814d24d83b3dc4d825dd'):,:(3):);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 66us  CREATE INDEX IF NOT EXISTS IndexAuthUserLogonName ON AuthUser(LogonName);
+20220318 15554641 SQL   mORMotSQLite3.TSQLRestServerDB(04d0dd50) 43us  CREATE INDEX IF NOT EXISTS IndexAuthUserGroupRights ON AuthUser(GroupRights);
+20220318 15554641 SQL   SynSQLite3.TSQLDatabase(0292dc00) 2.21ms server.db3 COMMIT TRANSACTION;
+20220318 15554641  +    ServerForm.TCustomHttpServer(028a6710).Create useHttpApiRegisteringURI (secNone) on port 8080
+20220318 15554641 http  	ServerForm.TCustomHttpServer(028a6710) http.sys registration of http://+:8080/root
+20220318 15554643 info  SetThreadName 22a0=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554644 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=22a0 ThreadCount=1
+20220318 15554644 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=22a0 ThreadCount=1
+20220318 15554644 http  	ServerForm.TCustomHttpServer(028a6710) http.sys registration of http://+:8080/service
+20220318 15554644 http  	ServerForm.TCustomHttpServer(028a6710) http.sys registration of http://+:8080/static
+20220318 15554647 info  SetThreadName 156c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554647 info  SetThreadName 3f3c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554649 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3f3c ThreadCount=2
+20220318 15554649 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=3f3c ThreadCount=2
+20220318 15554649 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=156c ThreadCount=3
+20220318 15554649 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=156c ThreadCount=3
+20220318 15554649 info  SetThreadName 05e0=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554655 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=05e0 ThreadCount=4
+20220318 15554655 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=05e0 ThreadCount=4
+20220318 15554660 info  SetThreadName 096c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554701 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=096c ThreadCount=5
+20220318 15554701 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=096c ThreadCount=5
+20220318 15554701 info  SetThreadName 034c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554701 http  	ServerForm.TCustomHttpServer(028a6710) {"THttpApiServer(04cb96a0)":{"RegisteredUrl":"http://+:8080/root/,http://+:8080/service/,http://+:8080/static/","MaxBandwidth":-1,"MaxConnections":-1,"APIVersion":"HTTP API 2.0","ServerName":"mORMot (Windows)","ProcessName":"root service "}} initialized for root service
+20220318 15554709  -    00.481.947
+20220318 15554709 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=034c ThreadCount=6
+20220318 15554709 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=034c ThreadCount=6
+20220318 15554716 info  SetThreadName 09fc=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554716 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=09fc ThreadCount=7
+20220318 15554722 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=09fc ThreadCount=7
+20220318 15554722 info  SetThreadName 11c8=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554723 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=11c8 ThreadCount=8
+20220318 15554723 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=11c8 ThreadCount=8
+20220318 15554752 info  SetThreadName 2d5c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554753 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2d5c ThreadCount=9
+20220318 15554753 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=2d5c ThreadCount=9
+20220318 15554753 info  SetThreadName 2994=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554754 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2994 ThreadCount=10
+20220318 15554754 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=2994 ThreadCount=10
+20220318 15554754 info  SetThreadName 1e30=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554755 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1e30 ThreadCount=11
+20220318 15554755 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=1e30 ThreadCount=11
+20220318 15554755 info  SetThreadName 1e9c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554756 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1e9c ThreadCount=12
+20220318 15554756 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=1e9c ThreadCount=12
+20220318 15554756 info  SetThreadName 294c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554757 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=294c ThreadCount=13
+20220318 15554757 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=294c ThreadCount=13
+20220318 15554757 info  SetThreadName 3810=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554757 info  SetThreadName 0df8=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554758 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3810 ThreadCount=14
+20220318 15554759 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=3810 ThreadCount=14
+20220318 15554759 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0df8 ThreadCount=15
+20220318 15554759 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=0df8 ThreadCount=15
+20220318 15554759 info  SetThreadName 36f4=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554760 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=36f4 ThreadCount=16
+20220318 15554760 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=36f4 ThreadCount=16
+20220318 15554760 info  SetThreadName 37c0=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554761 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=37c0 ThreadCount=17
+20220318 15554761 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=37c0 ThreadCount=17
+20220318 15554761 info  SetThreadName 3718=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554762 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3718 ThreadCount=18
+20220318 15554762 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=3718 ThreadCount=18
+20220318 15554762 info  SetThreadName 288c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554762 info  SetThreadName 05a4=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554801 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=288c ThreadCount=19
+20220318 15554801 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=288c ThreadCount=19
+20220318 15554801 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=05a4 ThreadCount=20
+20220318 15554801 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=05a4 ThreadCount=20
+20220318 15554801 info  SetThreadName 0948=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554801 info  SetThreadName 3390=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554802 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0948 ThreadCount=21
+20220318 15554802 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=0948 ThreadCount=21
+20220318 15554802 info  SetThreadName 0d00=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554804 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3390 ThreadCount=22
+20220318 15554804 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=3390 ThreadCount=22
+20220318 15554804 info  SetThreadName 3d3c=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554805 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3d3c ThreadCount=23
+20220318 15554805 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=3d3c ThreadCount=23
+20220318 15554805 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0d00 ThreadCount=24
+20220318 15554805 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=0d00 ThreadCount=24
+20220318 15554805 info  SetThreadName 33e0=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554806 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=33e0 ThreadCount=25
+20220318 15554806 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=33e0 ThreadCount=25
+20220318 15554806 info  SetThreadName 2bf0=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554806 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2bf0 ThreadCount=26
+20220318 15554806 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=2bf0 ThreadCount=26
+20220318 15554806 info  SetThreadName 16c4=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554807 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=16c4 ThreadCount=27
+20220318 15554807 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=16c4 ThreadCount=27
+20220318 15554807 info  SetThreadName 2a28=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554808 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2a28 ThreadCount=28
+20220318 15554808 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=2a28 ThreadCount=28
+20220318 15554808 info  SetThreadName 2a20=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554809 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2a20 ThreadCount=29
+20220318 15554809 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=2a20 ThreadCount=29
+20220318 15554809 info  SetThreadName 3988=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554810 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3988 ThreadCount=30
+20220318 15554810 info  SetThreadName 1244=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554810 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=3988 ThreadCount=30
+20220318 15554810 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1244 ThreadCount=31
+20220318 15554810 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=1244 ThreadCount=31
+20220318 15554810 info  SetThreadName 2de0=TCustomHttpSvr 8080/root service THttpApiSvr
+20220318 15554812 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2de0 ThreadCount=32
+20220318 15554812 trace mORMot.TSQLRestServerFullMemory(02837d60) BeginCurrentThread(THttpApiServer) root=service ThreadID=2de0 ThreadCount=32
+20220318 15555462  +    ServerForm.TCustomHttpServer(028a6710).Destroy
+20220318 15555462 http  	ServerForm.TCustomHttpServer(028a6710) {"THttpApiServer(04cb96a0)":{"RegisteredUrl":"http://+:8080/root/,http://+:8080/service/,http://+:8080/static/","MaxBandwidth":-1,"MaxConnections":-1,"APIVersion":"HTTP API 2.0","ServerName":"mORMot (Windows)","ProcessName":"root service "}} finalized for 2 servers
+20220318 15555462  +    	ServerForm.TCustomHttpServer(028a6710).Shutdown(true)
+20220318 15555462  -    	00.000.001
+20220318 15555462 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=22a0 ThreadCount=31
+20220318 15555462 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=22a0 ThreadCount=31
+20220318 15555462 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=156c ThreadCount=30
+20220318 15555462 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=156c ThreadCount=30
+20220318 15555462 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=096c ThreadCount=29
+20220318 15555462 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=096c ThreadCount=29
+20220318 15555462 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=034c ThreadCount=28
+20220318 15555462 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=034c ThreadCount=28
+20220318 15555462 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=09fc ThreadCount=27
+20220318 15555462 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=09fc ThreadCount=27
+20220318 15555509 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=05e0 ThreadCount=26
+20220318 15555512 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=05e0 ThreadCount=26
+20220318 15555512 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=2994 ThreadCount=25
+20220318 15555512 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=2994 ThreadCount=25
+20220318 15555512 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=1e9c ThreadCount=24
+20220318 15555512 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=1e9c ThreadCount=24
+20220318 15555512 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=294c ThreadCount=23
+20220318 15555512 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=294c ThreadCount=23
+20220318 15555515 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=0df8 ThreadCount=22
+20220318 15555515 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=0df8 ThreadCount=22
+20220318 15555518 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=36f4 ThreadCount=21
+20220318 15555518 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=36f4 ThreadCount=21
+20220318 15555519 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=11c8 ThreadCount=20
+20220318 15555519 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=11c8 ThreadCount=20
+20220318 15555521 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=3718 ThreadCount=19
+20220318 15555521 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=3718 ThreadCount=19
+20220318 15555521 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=05a4 ThreadCount=18
+20220318 15555521 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=05a4 ThreadCount=18
+20220318 15555526 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=288c ThreadCount=17
+20220318 15555527 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=288c ThreadCount=17
+20220318 15555530 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=0948 ThreadCount=16
+20220318 15555530 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=0948 ThreadCount=16
+20220318 15555530 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=3390 ThreadCount=15
+20220318 15555530 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=3390 ThreadCount=15
+20220318 15555532 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=0d00 ThreadCount=14
+20220318 15555532 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=0d00 ThreadCount=14
+20220318 15555533 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=3d3c ThreadCount=13
+20220318 15555533 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=3d3c ThreadCount=13
+20220318 15555534 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=3810 ThreadCount=12
+20220318 15555536 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=3810 ThreadCount=12
+20220318 15555537 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=33e0 ThreadCount=11
+20220318 15555538 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=33e0 ThreadCount=11
+20220318 15555542 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=2bf0 ThreadCount=10
+20220318 15555542 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=2bf0 ThreadCount=10
+20220318 15555542 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=16c4 ThreadCount=9
+20220318 15555545 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=16c4 ThreadCount=9
+20220318 15555545 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=2a28 ThreadCount=8
+20220318 15555545 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=2a28 ThreadCount=8
+20220318 15555545 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=2a20 ThreadCount=7
+20220318 15555547 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=2a20 ThreadCount=7
+20220318 15555547 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=2d5c ThreadCount=6
+20220318 15555547 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=2d5c ThreadCount=6
+20220318 15555547 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=3988 ThreadCount=5
+20220318 15555547 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=3988 ThreadCount=5
+20220318 15555547 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=1244 ThreadCount=4
+20220318 15555547 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=1244 ThreadCount=4
+20220318 15555548 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=2de0 ThreadCount=3
+20220318 15555550 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=2de0 ThreadCount=3
+20220318 15555550 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=3f3c ThreadCount=2
+20220318 15555550 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=3f3c ThreadCount=2
+20220318 15555550 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=37c0 ThreadCount=1
+20220318 15555550 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=37c0 ThreadCount=1
+20220318 15555552 trace mORMotSQLite3.TSQLRestServerDB(04d0dd50) EndCurrentThread(THttpApiServer) ThreadID=1e30 ThreadCount=0
+20220318 15555552 trace mORMot.TSQLRestServerFullMemory(02837d60) EndCurrentThread(THttpApiServer) ThreadID=1e30 ThreadCount=0
+20220318 15555556  -    00.903.789
+20220318 15555556 DB    mORMot.TSQLRestServerFullMemory(02837d60) UpdateToFile done in 1.01ms
+20220318 15555556  +    mORMot.TSQLRestServerFullMemory(02837d60).Shutdown() service CurrentRequestCount=0
+20220318 15555556  -    00.005.755
+20220318 15555556 info  mORMot.TSQLRestStorageInMemory(028825f0) TSQLRest.Destroy service
+20220318 15555556 info  mORMot.TSQLRestStorageInMemory(02882910) TSQLRest.Destroy service
+20220318 15555556 info  mORMot.TSQLRestServerFullMemory(02837d60) TSQLRest.Destroy service
+20220318 15555556  +    mORMotSQLite3.TSQLRestServerDB(04d0dd50).Destroy root
+20220318 15555556  +    	mORMotSQLite3.TSQLRestServerDB(04d0dd50).Shutdown() root CurrentRequestCount=0
+20220318 15555556  -    	00.005.465
+20220318 15555556 info  	mORMotSQLite3.TSQLRestServerDB(04d0dd50) TSQLRest.Destroy root
+20220318 15555556  +    	SynSQLite3.TSQLDatabase(0292dc00).Destroy server.db3
+20220318 15555556  +    		SynSQLite3.TSQLDatabase(0292dc00).DBClose
+20220318 15555556 DB    			SynSQLite3.TSQLDatabase(0292dc00) closing [server.db3] 40 KB
+20220318 15555556  -    		00.000.409
+20220318 15555556  -    	00.000.418
+20220318 15555556  -    00.005.927

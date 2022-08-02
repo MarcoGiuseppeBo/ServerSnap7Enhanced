@@ -1,0 +1,78 @@
+C:\!mysw\mORMot-master\SQLite3\Samples\10 - Background Http service\httpservice.exe 0.0.0.0 (2022-03-18 06:56:32)
+Host=MARCOBO-SYDNEY User=Administrator CPU=5x11thGenIntel(R)Core(TM)i7-11800H@2.30GHz(x86)*9-6-36097:FFFB8B1F0332FAFFEB279FF108400000000400BC OS=23.0=10.0.19043 Wow64=1 Freq=10000000
+Environment variables=ALLUSERSPROFILE=C:\ProgramData	APPDATA=C:\Users\Administrator\AppData\Roaming	BDS=c:\program files (x86)\embarcadero\studio\21.0	BDSAppDataBaseDir=BDS	BDSBIN=c:\program files (x86)\embarcadero\studio\21.0\bin	BDSCatalogRepository=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCatalogRepositoryAllUsers=C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCOMMONDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0	BDSINCLUDE=c:\program files (x86)\embarcadero\studio\21.0\include	BDSLIB=c:\program files (x86)\embarcadero\studio\21.0\lib	BDSPLATFORMSDKSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\SDKs	BDSPROFILESDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Profiles	BDSPROJECTSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects	BDSUSERDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0	CommonProgramFiles=C:\Program Files (x86)\Common Files	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files	CommonProgramW6432=C:\Program Files\Common Files	COMPUTERNAME=MARCOBO-SYDNEY	ComSpec=C:\Windows\system32\cmd.exe	DELPHI=c:\program files (x86)\embarcadero\studio\21.0	DEMOSDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0\Samples	DriverData=C:\Windows\System32\Drivers\DriverData	DXVCL=C:\Program Files (x86)\DevExpress\VCL	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer	FPS_BROWSER_USER_PROFILE_STRING=Default	HOMEDRIVE=C:	HOMEPATH=\Users\Administrator	IBREDISTDIR=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020	IB_PROTOCOL=gds_db	InterBase=c:\program files (x86)\embarcadero\studio\21.0\InterBase2020	LOCALAPPDATA=C:\Users\Administrator\AppData\Local	LOGONSERVER=\\MARCOBO-SYDNEY	NUMBER_OF_PROCESSORS=5	OneDrive=C:\Users\Administrator\OneDrive	OneDriveConsumer=C:\Users\Administrator\OneDrive	OS=Windows_NT	Path=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC	PROCESSOR_ARCHITECTURE=x86	PROCESSOR_ARCHITEW6432=AMD64	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 141 Stepping 1, GenuineIntel	PROCESSOR_LEVEL=6	PROCESSOR_REVISION=8d01	ProductVersion=21.0	ProgramData=C:\ProgramData	ProgramFiles=C:\Program Files (x86)	ProgramFiles(x86)=C:\Program Files (x86)	ProgramW6432=C:\Program Files	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules	PUBLIC=C:\Users\Public	SESSIONNAME=Console	SystemDrive=C:	SystemRoot=C:\Windows	TEMP=C:\Users\ADMINI~1\AppData\Local\Temp	TMP=C:\Users\ADMINI~1\AppData\Local\Temp	TWINCAT3DIR=C:\TwinCAT\3.1\	TWINCATSDK=C:\TwinCAT\3.1\SDK\	USERDOMAIN=MARCOBO-SYDNEY	USERDOMAIN_ROAMINGPROFILE=MARCOBO-SYDNEY	USERNAME=Administrator	USERPROFILE=C:\Users\Administrator	windir=C:\Windows
+TSynLog 1.18.6308 2022-03-18T05:56:33
+
+20220318 05563321  +    HttpService.TSQLite3HttpService(0271d450).7570be 
+20220318 05563321  +    	SynSQLite3.TSQLDatabase(0277dcc0).DBOpen httpservice.db3
+20220318 05563321 SQL   		SynSQLite3.TSQLDatabase(0277dcc0) 145us httpservice.db3 PRAGMA page_size=4096 = true
+20220318 05563321 SQL   		SynSQLite3.TSQLDatabase(0277dcc0) 341us httpservice.db3 PRAGMA cache_size=10000 = true
+20220318 05563321 SQL   		SynSQLite3.TSQLDatabase(0277dcc0) 84us httpservice.db3 select count(*) from sqlite_master = true
+20220318 05563321 DB    		SynSQLite3.TSQLDatabase(0277dcc0) "C:\!mysw\mORMot-master\SQLite3\Samples\10 - Background Http service\httpservice.db3" database file (0 B) opened with PageSize=4096 CacheSize=10000 (39 MB)
+20220318 05563321  -    	00.001.275
+20220318 05563322 SQL   	SynSQLite3.TSQLDatabase(0277dcc0) 475us httpservice.db3 returned 0 rows SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+20220318 05563322 DB    	mORMotSQLite3.TSQLRestServerDB(026a0a50) CreateMissingTables on {"TSQLDatabase(0277dcc0)":{"FileName":"C:\\!mysw\\mORMot-master\\SQLite3\\Samples\\10 - Background Http service\\httpservice.db3","UseCache":true,"UseCacheSize":16777216,"CacheSize":10000,"PageSize":4096,"Synchronous":"smFull","OpenV2Flags":6,"SQLite3Library":{"TSQLite3LibraryStatic(026c33a0)":{"Version":"TSQLite3LibraryStatic 3.35.5 with internal MM"}}}}
+20220318 05563322 DB    	mORMotSQLite3.TSQLRestServerDB(026a0a50) GetTables=[]
+20220318 05563322 SQL   	SynSQLite3.TSQLDatabase(0277dcc0) 3us httpservice.db3 BEGIN TRANSACTION;
+20220318 05563322 SQL   	SynSQLite3.TSQLDatabase(0277dcc0) 964us httpservice.db3 CREATE TABLE SampleRecord(ID INTEGER PRIMARY KEY AUTOINCREMENT, Time INTEGER, Name TEXT COLLATE SYSTEMNOCASE, Question TEXT COLLATE SYSTEMNOCASE);
+20220318 05563322 SQL   	SynSQLite3.TSQLDatabase(0277dcc0) 3.15ms httpservice.db3 COMMIT TRANSACTION;
+20220318 05563322  +    	mORMotHttpServer.TSQLHttpServer(02724920).Create useHttpApiRegisteringURI (secNone) on port 8080
+20220318 05563323 http  		mORMotHttpServer.TSQLHttpServer(02724920) http.sys registration of http://+:8080/root
+20220318 05563324 info  SetThreadName 1944=HttpSvr 8080/root THttpApiSvr
+20220318 05563325 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1944 ThreadCount=1
+20220318 05563328 info  SetThreadName 2f9c=HttpSvr 8080/root THttpApiSvr
+20220318 05563328 info  SetThreadName 0810=HttpSvr 8080/root THttpApiSvr
+20220318 05563331 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0810 ThreadCount=2
+20220318 05563331 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2f9c ThreadCount=3
+20220318 05563333 info  SetThreadName 2ad8=HttpSvr 8080/root THttpApiSvr
+20220318 05563335 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2ad8 ThreadCount=4
+20220318 05563335 info  SetThreadName 1c70=HttpSvr 8080/root THttpApiSvr
+20220318 05563335 info  SetThreadName 1820=HttpSvr 8080/root THttpApiSvr
+20220318 05563336 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1c70 ThreadCount=5
+20220318 05563336 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1820 ThreadCount=6
+20220318 05563343 info  SetThreadName 2c44=HttpSvr 8080/root THttpApiSvr
+20220318 05563343 info  SetThreadName 3cc8=HttpSvr 8080/root THttpApiSvr
+20220318 05563344 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2c44 ThreadCount=7
+20220318 05563344 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3cc8 ThreadCount=8
+20220318 05563347 info  SetThreadName 17d4=HttpSvr 8080/root THttpApiSvr
+20220318 05563349 info  SetThreadName 2c48=HttpSvr 8080/root THttpApiSvr
+20220318 05563352 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=17d4 ThreadCount=9
+20220318 05563352 info  SetThreadName 3e60=HttpSvr 8080/root THttpApiSvr
+20220318 05563352 info  SetThreadName 0244=HttpSvr 8080/root THttpApiSvr
+20220318 05563352 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2c48 ThreadCount=10
+20220318 05563360 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3e60 ThreadCount=11
+20220318 05563360 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0244 ThreadCount=12
+20220318 05563360 info  SetThreadName 0e50=HttpSvr 8080/root THttpApiSvr
+20220318 05563401 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0e50 ThreadCount=13
+20220318 05563401 info  SetThreadName 3d90=HttpSvr 8080/root THttpApiSvr
+20220318 05563401 info  SetThreadName 1920=HttpSvr 8080/root THttpApiSvr
+20220318 05563403 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3d90 ThreadCount=14
+20220318 05563403 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=1920 ThreadCount=15
+20220318 05563403 info  SetThreadName 35c8=HttpSvr 8080/root THttpApiSvr
+20220318 05563406 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=35c8 ThreadCount=16
+20220318 05563409 info  SetThreadName 3c68=HttpSvr 8080/root THttpApiSvr
+20220318 05563412 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3c68 ThreadCount=17
+20220318 05563412 info  SetThreadName 2944=HttpSvr 8080/root THttpApiSvr
+20220318 05563412 info  SetThreadName 2fe8=HttpSvr 8080/root THttpApiSvr
+20220318 05563415 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2944 ThreadCount=18
+20220318 05563415 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2fe8 ThreadCount=19
+20220318 05563415 info  SetThreadName 0cbc=HttpSvr 8080/root THttpApiSvr
+20220318 05563415 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0cbc ThreadCount=20
+20220318 05563420 info  SetThreadName 2b90=HttpSvr 8080/root THttpApiSvr
+20220318 05563420 info  SetThreadName 3128=HttpSvr 8080/root THttpApiSvr
+20220318 05563424 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2b90 ThreadCount=21
+20220318 05563424 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3128 ThreadCount=22
+20220318 05563424 info  SetThreadName 05f4=HttpSvr 8080/root THttpApiSvr
+20220318 05563427 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=05f4 ThreadCount=23
+20220318 05563427 info  SetThreadName 0764=HttpSvr 8080/root THttpApiSvr
+20220318 05563430 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=0764 ThreadCount=24
+20220318 05563430 info  SetThreadName 2fbc=HttpSvr 8080/root THttpApiSvr
+20220318 05563433 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2fbc ThreadCount=25
+20220318 05563433 info  SetThreadName 33ec=HttpSvr 8080/root THttpApiSvr
+20220318 05563436 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=33ec ThreadCount=26
+20220318 05563439 info  SetThreadName 2ac0=HttpSvr 8080/root THttpApiSvr
+20220318 05563442 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=2ac0 ThreadCount=27
+20220318 05563442 info  SetThreadName 3d48=HttpSvr 8080/root THttpApiSvr
+20220318 05563442 info  SetThreadName 36b4=HttpSvr 8080/root THttpApiSvr
+20220318 05563445 trace mORMotSQLite3.TSQLRestServerDB(026a0a50) BeginCurrentThread(THttpApiServer) root=root ThreadID=3d48 ThreadCount=28
+20220318 05563446 trace mORMotSQLite3.

@@ -1,0 +1,174 @@
+C:\!mysw\mORMot-master\SQLite3\Samples\14 - Interface based services\Project14ServerHttp.exe 0.0.0.0 (2022-03-21 12:51:53)
+Host=MARCOBO-SYDNEY User=Administrator CPU=5x11thGenIntel(R)Core(TM)i7-11800H@2.30GHz(x86)*9-6-36097:FFFB8B1F0332FAFFEB279FF108400000000400BC OS=15.0=6.2.9200 Wow64=1 Freq=10000000
+Environment variables=ALLUSERSPROFILE=C:\ProgramData	APPDATA=C:\Users\Administrator\AppData\Roaming	BDS=c:\program files (x86)\embarcadero\studio\21.0	BDSAppDataBaseDir=BDS	BDSBIN=c:\program files (x86)\embarcadero\studio\21.0\bin	BDSCatalogRepository=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCatalogRepositoryAllUsers=C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCOMMONDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0	BDSINCLUDE=c:\program files (x86)\embarcadero\studio\21.0\include	BDSLIB=c:\program files (x86)\embarcadero\studio\21.0\lib	BDSPLATFORMSDKSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\SDKs	BDSPROFILESDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Profiles	BDSPROJECTSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects	BDSUSERDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0	CommonProgramFiles=C:\Program Files (x86)\Common Files	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files	CommonProgramW6432=C:\Program Files\Common Files	COMPUTERNAME=MARCOBO-SYDNEY	ComSpec=C:\Windows\system32\cmd.exe	DELPHI=c:\program files (x86)\embarcadero\studio\21.0	DEMOSDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0\Samples	DriverData=C:\Windows\System32\Drivers\DriverData	DXVCL=C:\Program Files (x86)\DevExpress\VCL	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer	FPS_BROWSER_USER_PROFILE_STRING=Default	HOMEDRIVE=C:	HOMEPATH=\Users\Administrator	IBREDISTDIR=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020	IB_PROTOCOL=gds_db	InterBase=c:\program files (x86)\embarcadero\studio\21.0\InterBase2020	LOCALAPPDATA=C:\Users\Administrator\AppData\Local	LOGONSERVER=\\MARCOBO-SYDNEY	NUMBER_OF_PROCESSORS=5	OneDrive=C:\Users\Administrator\OneDrive	OS=Windows_NT	Path=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC	PROCESSOR_ARCHITECTURE=x86	PROCESSOR_ARCHITEW6432=AMD64	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 141 Stepping 1, GenuineIntel	PROCESSOR_LEVEL=6	PROCESSOR_REVISION=8d01	ProductVersion=21.0	ProgramData=C:\ProgramData	ProgramFiles=C:\Program Files (x86)	ProgramFiles(x86)=C:\Program Files (x86)	ProgramW6432=C:\Program Files	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules	PUBLIC=C:\Users\Public	SESSIONNAME=Console	SystemDrive=C:	SystemRoot=C:\Windows	TEMP=C:\Users\ADMINI~1\AppData\Local\Temp	TMP=C:\Users\ADMINI~1\AppData\Local\Temp	TWINCAT3DIR=C:\TwinCAT\3.1\	TWINCATSDK=C:\TwinCAT\3.1\SDK\	USERDOMAIN=MARCOBO-SYDNEY	USERDOMAIN_ROAMINGPROFILE=MARCOBO-SYDNEY	USERNAME=Administrator	USERPROFILE=C:\Users\Administrator	windir=C:\Windows
+TSynLog 1.18.6308 2022-03-21T11:51:55
+
+20220321 11515507  ! trace mORMot.TSQLRestStorageInMemory(0258e710) LoadFromJSON TSQLAuthGroup count=4 load=18us index=3us
+20220321 11515507  ! trace mORMot.TSQLRestStorageInMemory(0258ea30) LoadFromJSON TSQLAuthUser count=3 load=12us index=1us
+20220321 11515507  !  +    mORMotHttpServer.TSQLHttpServer(02536f20).Create useHttpApiRegisteringURI (secNone) on port 8888
+20220321 11515507  ! http  	mORMotHttpServer.TSQLHttpServer(02536f20) http.sys registration of http://+:8888/root
+20220321 11515508  " info  SetThreadName 0ca0=HttpSvr 8888/root THttpApiSvr
+20220321 11515508  " trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=0ca0 ThreadCount=1
+20220321 11515512  # info  SetThreadName 194c=HttpSvr 8888/root THttpApiSvr
+20220321 11515515  $ info  SetThreadName 01ac=HttpSvr 8888/root THttpApiSvr
+20220321 11515518  % info  SetThreadName 0b20=HttpSvr 8888/root THttpApiSvr
+20220321 11515522  & info  SetThreadName 1008=HttpSvr 8888/root THttpApiSvr
+20220321 11515525  # trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=194c ThreadCount=2
+20220321 11515530  ' info  SetThreadName 1fc8=HttpSvr 8888/root THttpApiSvr
+20220321 11515534  ( info  SetThreadName 1dd0=HttpSvr 8888/root THttpApiSvr
+20220321 11515540  ) info  SetThreadName 1658=HttpSvr 8888/root THttpApiSvr
+20220321 11515544  * info  SetThreadName 18bc=HttpSvr 8888/root THttpApiSvr
+20220321 11515550  $ trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=01ac ThreadCount=3
+20220321 11515555  ! http  	mORMotHttpServer.TSQLHttpServer(02536f20) {"THttpApiServer(0253a5a0)":{"RegisteredUrl":"http://+:8888/root/","MaxBandwidth":-1,"MaxConnections":-1,"APIVersion":"HTTP API 2.0","ServerName":"mORMot (Windows)","ProcessName":"root "}} initialized for root
+20220321 11515555  !  -    00.757.815
+20220321 11515555  % trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=0b20 ThreadCount=4
+20220321 11515555  + info  SetThreadName 20f0=HttpSvr 8888/root THttpApiSvr
+20220321 11515555  , info  SetThreadName 1a48=HttpSvr 8888/root THttpApiSvr
+20220321 11515556  - info  SetThreadName 1e20=HttpSvr 8888/root THttpApiSvr
+20220321 11515557  . info  SetThreadName 1408=HttpSvr 8888/root THttpApiSvr
+20220321 11515558  & trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1008 ThreadCount=5
+20220321 11515558  / info  SetThreadName 12fc=HttpSvr 8888/root THttpApiSvr
+20220321 11515558  0 info  SetThreadName 0bcc=HttpSvr 8888/root THttpApiSvr
+20220321 11515559  1 info  SetThreadName 80=HttpSvr 8888/root THttpApiSvr
+20220321 11515561  2 info  SetThreadName 21a8=HttpSvr 8888/root THttpApiSvr
+20220321 11515561  ' trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1fc8 ThreadCount=6
+20220321 11515561  3 info  SetThreadName 17f0=HttpSvr 8888/root THttpApiSvr
+20220321 11515561  4 info  SetThreadName 1e14=HttpSvr 8888/root THttpApiSvr
+20220321 11515600  5 info  SetThreadName 1d44=HttpSvr 8888/root THttpApiSvr
+20220321 11515601  ( trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1dd0 ThreadCount=7
+20220321 11515602  6 info  SetThreadName 0e24=HttpSvr 8888/root THttpApiSvr
+20220321 11515602  ) trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1658 ThreadCount=8
+20220321 11515602  7 info  SetThreadName 1e00=HttpSvr 8888/root THttpApiSvr
+20220321 11515602  8 info  SetThreadName 20b4=HttpSvr 8888/root THttpApiSvr
+20220321 11515602  9 info  SetThreadName 2198=HttpSvr 8888/root THttpApiSvr
+20220321 11515604  : info  SetThreadName 2564=HttpSvr 8888/root THttpApiSvr
+20220321 11515605  ; info  SetThreadName 197c=HttpSvr 8888/root THttpApiSvr
+20220321 11515606  * trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=18bc ThreadCount=9
+20220321 11515607  < info  SetThreadName 0384=HttpSvr 8888/root THttpApiSvr
+20220321 11515607  = info  SetThreadName 1430=HttpSvr 8888/root THttpApiSvr
+20220321 11515607  > info  SetThreadName 1058=HttpSvr 8888/root THttpApiSvr
+20220321 11515607  ? info  SetThreadName 185c=HttpSvr 8888/root THttpApiSvr
+20220321 11515609  @ info  SetThreadName 03d8=HttpSvr 8888/root THttpApiSvr
+20220321 11515610  + trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=20f0 ThreadCount=10
+20220321 11515611  A info  SetThreadName 2258=HttpSvr 8888/root THttpApiSvr
+20220321 11515611  , trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1a48 ThreadCount=11
+20220321 11515611  - trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1e20 ThreadCount=12
+20220321 11515611  . trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1408 ThreadCount=13
+20220321 11515611  / trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=12fc ThreadCount=14
+20220321 11515611  0 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=0bcc ThreadCount=15
+20220321 11515611  1 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=80 ThreadCount=16
+20220321 11515611  2 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=21a8 ThreadCount=17
+20220321 11515611  3 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=17f0 ThreadCount=18
+20220321 11515611  4 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1e14 ThreadCount=19
+20220321 11515611  5 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1d44 ThreadCount=20
+20220321 11515611  6 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=0e24 ThreadCount=21
+20220321 11515611  7 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1e00 ThreadCount=22
+20220321 11515611  8 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=20b4 ThreadCount=23
+20220321 11515611  9 trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=2198 ThreadCount=24
+20220321 11515611  : trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=2564 ThreadCount=25
+20220321 11515611  ; trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=197c ThreadCount=26
+20220321 11515611  < trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=0384 ThreadCount=27
+20220321 11515611  = trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1430 ThreadCount=28
+20220321 11515611  > trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=1058 ThreadCount=29
+20220321 11515611  ? trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=185c ThreadCount=30
+20220321 11515611  @ trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=03d8 ThreadCount=31
+20220321 11515612  A trace mORMot.TSQLRestServerFullMemory(02542ee0) BeginCurrentThread(THttpApiServer) root=root ThreadID=2258 ThreadCount=32
+20220321 11520835  "  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Timestamp in=0 B
+20220321 11520835  " srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Timestamp Method=200 out=12 B in 25us
+20220321 11520835  " ret   	mORMot.TSQLRestServerFullMemory(02542ee0) 135705181448
+20220321 11520835  "  -    00.002.531
+20220321 11520835  #  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User in=0 B
+20220321 11520835  # call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User
+20220321 11520835  # srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=77 B in 272us
+20220321 11520835  # ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"4bf52623dcded2e6912df5badfe106338b3bdba4c85ac223f716bfba9d1095ef"}
+20220321 11520836  #  -    00.001.273
+20220321 11520836  $  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User&Password=5d8765cf8dec9f60cabd200552887dc909a1d4a1ddeba0a1f0c7444a8fb7d23d&ClientNonce=da586e8fc5ce5060de8d882d73e9b153b7ecb23853a01efec3ba17e44ee4d4a1 in=0 B
+20220321 11520836  $ call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User&Password=5d8765cf8dec9f60cabd200552887dc909a1d4a1ddeba0a1f0c7444a8fb7d23d&ClientNonce=da586e8fc5ce5060de8d882d73e9b153b7ecb23853a01efec3ba17e44ee4d4a1
+20220321 11520836  $ auth  	mORMot.TAuthSession(025b4bc0) New [User] session User/1510185614 created at 192.168.1.9/-72057588132347891 running Mozilla/5.0 (Linux; mORMot 1.18 THttpClientSocket)
+20220321 11520836  $ srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=213 B in 1.02ms
+20220321 11520836  $ ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"1510185614+025A2E86623B6ADA60BEEC5546C203BECFFA8A90FA8F13A0BFFBB469C5B53F9D","logonid":3,"logonname":"User","logondisplay":"User","logongroup":3,"timeout":60,"server":"Project14ServerHttp","version":""}
+20220321 11520836  $  -    00.002.651
+20220321 12010821  %  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Timestamp in=0 B
+20220321 12010821  % srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Timestamp Method=200 out=12 B in 19us
+20220321 12010821  % ret   	mORMot.TSQLRestServerFullMemory(02542ee0) 135705182280
+20220321 12010821  %  -    00.002.566
+20220321 12010821  &  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User in=0 B
+20220321 12010821  & call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User
+20220321 12010821  & srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=77 B in 318us
+20220321 12010821  & ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"fb58300f96cdb23e4d130b8e481cea4a6875e57c9c83e8863fd8b343163840b9"}
+20220321 12010821  &  -    00.001.387
+20220321 12010821  '  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User&Password=6398d17af8fd77aa44fd537277fa9a88f98952622ef1c03ea9eaa54eb378fcd3&ClientNonce=0b4b29aac84000503122da40df0225cc8aba2e6b008b92715fd79d4450446e25 in=0 B
+20220321 12010821  ' call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User&Password=6398d17af8fd77aa44fd537277fa9a88f98952622ef1c03ea9eaa54eb378fcd3&ClientNonce=0b4b29aac84000503122da40df0225cc8aba2e6b008b92715fd79d4450446e25
+20220321 12010821  ' auth  	mORMot.TAuthSession(025b4d60) New [User] session User/1510185609 created at 192.168.1.9/-72057588132347887 running Mozilla/5.0 (Linux; mORMot 1.18 THttpClientSocket)
+20220321 12010821  ' srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=213 B in 1.02ms
+20220321 12010821  ' ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"1510185609+7D4C84363C0C285AE8087B78C48FA11A4547DB061E7D9D19042E91BE4CA9112E","logonid":3,"logonname":"User","logondisplay":"User","logongroup":3,"timeout":60,"server":"Project14ServerHttp","version":""}
+20220321 12010821  '  -    00.002.935
+20220321 12020400  (  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Timestamp in=0 B
+20220321 12020400  ( srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Timestamp Method=200 out=12 B in 28us
+20220321 12020400  ( ret   	mORMot.TSQLRestServerFullMemory(02542ee0) 135705182340
+20220321 12020400  (  -    00.002.211
+20220321 12020400  )  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User in=0 B
+20220321 12020400  ) call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User
+20220321 12020400  ) srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=77 B in 286us
+20220321 12020400  ) ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"fb58300f96cdb23e4d130b8e481cea4a6875e57c9c83e8863fd8b343163840b9"}
+20220321 12020400  )  -    00.001.429
+20220321 12020400  *  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User&Password=acc26a16567fabbc3e32d6c21d87d547362b70464232545071772fd2254c9ae6&ClientNonce=916c3f7e2efd5035d9b14f9c0ee9748eb590c9aa17246a9d740fa7edcec8661c in=0 B
+20220321 12020400  * call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User&Password=acc26a16567fabbc3e32d6c21d87d547362b70464232545071772fd2254c9ae6&ClientNonce=916c3f7e2efd5035d9b14f9c0ee9748eb590c9aa17246a9d740fa7edcec8661c
+20220321 12020400  * auth  	mORMot.TAuthSession(025b4f00) New [User] session User/1510185608 created at 192.168.1.9/-72057588132347883 running Mozilla/5.0 (Linux; mORMot 1.18 THttpClientSocket)
+20220321 12020400  * srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=213 B in 1.34ms
+20220321 12020400  * ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"1510185608+A6A4840B078E87451D49AC04E39BD6930E16FAA7F1B48779E16F9E277094F134","logonid":3,"logonname":"User","logondisplay":"User","logongroup":3,"timeout":60,"server":"Project14ServerHttp","version":""}
+20220321 12020400  *  -    00.003.353
+20220321 12024746  +  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Timestamp in=0 B
+20220321 12024746  + srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Timestamp Method=200 out=12 B in 16us
+20220321 12024746  + ret   	mORMot.TSQLRestServerFullMemory(02542ee0) 135705182383
+20220321 12024746  +  -    00.002.286
+20220321 12024746  ,  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User in=0 B
+20220321 12024746  , call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User
+20220321 12024746  , srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=77 B in 336us
+20220321 12024746  , ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"fb58300f96cdb23e4d130b8e481cea4a6875e57c9c83e8863fd8b343163840b9"}
+20220321 12024746  ,  -    00.001.386
+20220321 12024746  -  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User&Password=5ee856ed6ad56efdd19ae03567ea3bc02009333220f016794d9e0698936abc90&ClientNonce=7426b0d6c18e468bdc96d4a91191ffd24c01877db0c49e450bef9dbbe4819c55 in=0 B
+20220321 12024746  - call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User&Password=5ee856ed6ad56efdd19ae03567ea3bc02009333220f016794d9e0698936abc90&ClientNonce=7426b0d6c18e468bdc96d4a91191ffd24c01877db0c49e450bef9dbbe4819c55
+20220321 12024746  - auth  	mORMot.TAuthSession(025b50a0) New [User] session User/1510185611 created at 192.168.1.9/-216172780503171071 running Mozilla/5.0 (Linux; mORMot 1.18 THttpClientSocket)
+20220321 12024746  - srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=213 B in 815us
+20220321 12024746  - ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"1510185611+AB2E490F18BAF320593008662EA0DB5C5862404B033A80E915813063B203FD12","logonid":3,"logonname":"User","logondisplay":"User","logongroup":3,"timeout":60,"server":"Project14ServerHttp","version":""}
+20220321 12024746  -  -    00.002.124
+20220321 12024746  .  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI POST root/Calculator._contract_?session_signature=5a039a8b0001102493ba6da1 in=2 B
+20220321 12024746  . auth  	mORMot.TSQLRestRoutingREST(02539620) User/1510185611 192.168.1.9
+20220321 12024746  . srvr  	mORMot.TSQLRestServerFullMemory(02542ee0) User 192.168.1.9 POST root/Calculator._contract_ Interface=200 out=31 B in 250us
+20220321 12024746  . ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":["1FC2AE72D7E2C88D"]}
+20220321 12024746  .  -    00.001.478
+20220321 12024746  /  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI POST root/Calculator.Add?session_signature=5a039a8b0001102485a5aa1b in=6 B
+20220321 12024746  / auth  	mORMot.TSQLRestRoutingREST(02539620) User/1510185611 192.168.1.9
+20220321 12024746  / call  	mORMot.TSQLRestServerFullMemory(02542ee0) ICalculator.Add[1,11]
+20220321 12024746  / srvr  	mORMot.TSQLRestServerFullMemory(02542ee0) User 192.168.1.9 POST root/Calculator.Add Interface=200 out=15 B in 548us
+20220321 12024746  / ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":[12]}
+20220321 12024746  /  -    00.001.655
+20220321 12024746  0  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User&Session=1510185611&session_signature=5a039a8b00011024a4b7afb4 in=0 B
+20220321 12024746  0 auth  	mORMot.TSQLRestRoutingREST(02539620) User/1510185611 192.168.1.9
+20220321 12024746  0 call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User&Session=1510185611&session_signature=5a039a8b00011024a4b7afb4
+20220321 12024746  0 auth  	mORMot.TSQLRestServerFullMemory(02542ee0) Deleted session User:1510185611/4 from 192.168.1.9/-216172780503171071
+20220321 12024746  0 srvr  	mORMot.TSQLRestServerFullMemory(02542ee0) User 192.168.1.9 GET root/Auth Method=200 out=0 B in 1.11ms
+20220321 12024747  0  -    00.001.974
+20220321 12044245  1  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Timestamp in=0 B
+20220321 12044245  1 srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Timestamp Method=200 out=12 B in 15us
+20220321 12044245  1 ret   	mORMot.TSQLRestServerFullMemory(02542ee0) 135705182506
+20220321 12044245  1  -    00.002.489
+20220321 12044245  2  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User in=0 B
+20220321 12044245  2 call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User
+20220321 12044245  2 srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=77 B in 249us
+20220321 12044245  2 ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"fb58300f96cdb23e4d130b8e481cea4a6875e57c9c83e8863fd8b343163840b9"}
+20220321 12044245  2  -    00.001.177
+20220321 12044245  3  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI GET root/Auth?UserName=User&Password=b9f2424e0c14e6910d5c76db3611159ef523ec151488ff22963a5fd2aa32d61b&ClientNonce=ca885c8e39f5a56d1bef6b91abf0e54a36e9609cfac67c59c92cfe34393c6038 in=0 B
+20220321 12044245  3 call  	mORMot.TSQLRestServerFullMemory(02542ee0) Auth UserName=User&Password=b9f2424e0c14e6910d5c76db3611159ef523ec151488ff22963a5fd2aa32d61b&ClientNonce=ca885c8e39f5a56d1bef6b91abf0e54a36e9609cfac67c59c92cfe34393c6038
+20220321 12044245  3 auth  	mORMot.TAuthSession(025b4fd0) New [User] session User/1510185610 created at 192.168.1.9/-216172780503171064 running Mozilla/5.0 (Linux; mORMot 1.18 THttpClientSocket)
+20220321 12044245  3 srvr  	mORMot.TSQLRestServerFullMemory(02542ee0)  192.168.1.9 GET root/Auth Method=200 out=213 B in 1.01ms
+20220321 12044245  3 ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":"1510185610+94C207DE9683A188AC0C57AE3CA1E0FBD332B888672FFF99B863E6DD0733EFCF","logonid":3,"logonname":"User","logondisplay":"User","logongroup":3,"timeout":60,"server":"Project14ServerHttp","version":""}
+20220321 12044245  3  -    00.002.659
+20220321 12044245  4  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI POST root/Calculator._contract_?session_signature=5a039a8a000111e55d329ecf in=2 B
+20220321 12044245  4 auth  	mORMot.TSQLRestRoutingREST(025397c0) User/1510185610 192.168.1.9
+20220321 12044245  4 srvr  	mORMot.TSQLRestServerFullMemory(02542ee0) User 192.168.1.9 POST root/Calculator._contract_ Interface=200 out=31 B in 272us
+20220321 12044245  4 ret   	mORMot.TSQLRestServerFullMemory(02542ee0) {"result":["1FC2AE72D7E2C88D"]}
+20220321 12044245  4  -    00.002.754
+20220321 12044245  5  +    mORMot.TSQLRestServerFullMemory(02542ee0).URI POST root/Calculator.Add?session_signature=5a039a8a000111e5146a9261 in=6 B
+20220321 12044245  5 auth  	mORMot.

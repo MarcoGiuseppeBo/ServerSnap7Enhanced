@@ -1,0 +1,80 @@
+C:\!mysw\mORMot-master\SQLite3\Samples\16 - Execute SQL via services\Project16ServerHttp.exe 0.0.0.0 (2022-03-30 00:41:45)
+Host=MARCOBO-SYDNEY User=Administrator CPU=5x11thGenIntel(R)Core(TM)i7-11800H@2.30GHz(x86)*9-6-36097:FFFB8B1F0332FAFFEB279FF108400000000400BC OS=15.0=6.2.9200 Wow64=1 Freq=10000000
+Environment variables=ALLUSERSPROFILE=C:\ProgramData	APPDATA=C:\Users\Administrator\AppData\Roaming	BDS=c:\program files (x86)\embarcadero\studio\21.0	BDSAppDataBaseDir=BDS	BDSBIN=c:\program files (x86)\embarcadero\studio\21.0\bin	BDSCatalogRepository=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCatalogRepositoryAllUsers=C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository	BDSCOMMONDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0	BDSINCLUDE=c:\program files (x86)\embarcadero\studio\21.0\include	BDSLIB=c:\program files (x86)\embarcadero\studio\21.0\lib	BDSPLATFORMSDKSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\SDKs	BDSPROFILESDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Profiles	BDSPROJECTSDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects	BDSUSERDIR=C:\Users\Administrator\Documents\Embarcadero\Studio\21.0	CommonProgramFiles=C:\Program Files (x86)\Common Files	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files	CommonProgramW6432=C:\Program Files\Common Files	COMPUTERNAME=MARCOBO-SYDNEY	ComSpec=C:\Windows\system32\cmd.exe	DELPHI=c:\program files (x86)\embarcadero\studio\21.0	DEMOSDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0\Samples	DriverData=C:\Windows\System32\Drivers\DriverData	DXVCL=C:\Program Files (x86)\DevExpress\VCL	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer	FPS_BROWSER_USER_PROFILE_STRING=Default	HOMEDRIVE=C:	HOMEPATH=\Users\Administrator	IBREDISTDIR=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020	IB_PROTOCOL=gds_db	InterBase=c:\program files (x86)\embarcadero\studio\21.0\InterBase2020	LOCALAPPDATA=C:\Users\Administrator\AppData\Local	LOGONSERVER=\\MARCOBO-SYDNEY	NUMBER_OF_PROCESSORS=5	OneDrive=C:\Users\Administrator\OneDrive	OS=Windows_NT	Path=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Program Files (x86)\DevExpress\VCL\Library\RS27;C:\Program Files (x86)\DevExpress\VCL\Library\RS27\Win64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC	PROCESSOR_ARCHITECTURE=x86	PROCESSOR_ARCHITEW6432=AMD64	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 141 Stepping 1, GenuineIntel	PROCESSOR_LEVEL=6	PROCESSOR_REVISION=8d01	ProductVersion=21.0	ProgramData=C:\ProgramData	ProgramFiles=C:\Program Files (x86)	ProgramFiles(x86)=C:\Program Files (x86)	ProgramW6432=C:\Program Files	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\	PUBLIC=C:\Users\Public	SESSIONNAME=Console	SystemDrive=C:	SystemRoot=C:\Windows	TEMP=C:\Users\ADMINI~1\AppData\Local\Temp	TMP=C:\Users\ADMINI~1\AppData\Local\Temp	TWINCAT3DIR=C:\TwinCAT\3.1\	TWINCATSDK=C:\TwinCAT\3.1\SDK\	USERDOMAIN=MARCOBO-SYDNEY	USERDOMAIN_ROAMINGPROFILE=MARCOBO-SYDNEY	USERNAME=Administrator	USERPROFILE=C:\Users\Administrator	windir=C:\Windows
+TSynLog 1.18.6308 2022-03-29T22:41:47
+
+20220329 22414700  !  +    mORMotHttpServer.TSQLHttpServer(026cb510).Create useHttpApiRegisteringURI (secNone) on port 888
+20220329 22414702  ! http  	mORMotHttpServer.TSQLHttpServer(026cb510) http.sys registration of http://+:888/root
+20220329 22414702  " info  SetThreadName 37e8=HttpSvr 888/root THttpApiSvr
+20220329 22414703  " trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=37e8 ThreadCount=1
+20220329 22414707  # info  SetThreadName 3030=HttpSvr 888/root THttpApiSvr
+20220329 22414713  $ info  SetThreadName 37d0=HttpSvr 888/root THttpApiSvr
+20220329 22414717  % info  SetThreadName 3600=HttpSvr 888/root THttpApiSvr
+20220329 22414722  & info  SetThreadName 2c30=HttpSvr 888/root THttpApiSvr
+20220329 22414726  ' info  SetThreadName 372c=HttpSvr 888/root THttpApiSvr
+20220329 22414730  # trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=3030 ThreadCount=2
+20220329 22414738  ( info  SetThreadName 0a3c=HttpSvr 888/root THttpApiSvr
+20220329 22414745  ) info  SetThreadName 2698=HttpSvr 888/root THttpApiSvr
+20220329 22414751  $ trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=37d0 ThreadCount=3
+20220329 22414808  * info  SetThreadName 2c68=HttpSvr 888/root THttpApiSvr
+20220329 22414811  ! http  	mORMotHttpServer.TSQLHttpServer(026cb510) {"THttpApiServer(026b8de0)":{"RegisteredUrl":"http://+:888/root/","MaxBandwidth":-1,"MaxConnections":-1,"APIVersion":"HTTP API 2.0","ServerName":"mORMot (Windows)","ProcessName":"root "}} initialized for root
+20220329 22414812  !  -    01.191.754
+20220329 22414812  + info  SetThreadName 3204=HttpSvr 888/root THttpApiSvr
+20220329 22414812  , info  SetThreadName 06d0=HttpSvr 888/root THttpApiSvr
+20220329 22414813  - info  SetThreadName 2b5c=HttpSvr 888/root THttpApiSvr
+20220329 22414814  % trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=3600 ThreadCount=4
+20220329 22414815  . info  SetThreadName 193c=HttpSvr 888/root THttpApiSvr
+20220329 22414815  / info  SetThreadName 1d68=HttpSvr 888/root THttpApiSvr
+20220329 22414817  0 info  SetThreadName 35f4=HttpSvr 888/root THttpApiSvr
+20220329 22414819  1 info  SetThreadName 31ec=HttpSvr 888/root THttpApiSvr
+20220329 22414819  & trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2c30 ThreadCount=5
+20220329 22414820  2 info  SetThreadName 19f4=HttpSvr 888/root THttpApiSvr
+20220329 22414820  3 info  SetThreadName 22d0=HttpSvr 888/root THttpApiSvr
+20220329 22414821  ' trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=372c ThreadCount=6
+20220329 22414822  4 info  SetThreadName 156c=HttpSvr 888/root THttpApiSvr
+20220329 22414822  5 info  SetThreadName 3790=HttpSvr 888/root THttpApiSvr
+20220329 22414824  6 info  SetThreadName 2e38=HttpSvr 888/root THttpApiSvr
+20220329 22414825  7 info  SetThreadName 1418=HttpSvr 888/root THttpApiSvr
+20220329 22414826  8 info  SetThreadName 2ab0=HttpSvr 888/root THttpApiSvr
+20220329 22414828  ( trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=0a3c ThreadCount=7
+20220329 22414829  9 info  SetThreadName 3678=HttpSvr 888/root THttpApiSvr
+20220329 22414830  : info  SetThreadName 2af8=HttpSvr 888/root THttpApiSvr
+20220329 22414830  ) trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2698 ThreadCount=8
+20220329 22414831  ; info  SetThreadName 34d4=HttpSvr 888/root THttpApiSvr
+20220329 22414831  < info  SetThreadName 351c=HttpSvr 888/root THttpApiSvr
+20220329 22414833  = info  SetThreadName 305c=HttpSvr 888/root THttpApiSvr
+20220329 22414834  > info  SetThreadName 1910=HttpSvr 888/root THttpApiSvr
+20220329 22414834  ? info  SetThreadName 374c=HttpSvr 888/root THttpApiSvr
+20220329 22414835  @ info  SetThreadName 294c=HttpSvr 888/root THttpApiSvr
+20220329 22414837  A info  SetThreadName 1e4c=HttpSvr 888/root THttpApiSvr
+20220329 22414838  * trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2c68 ThreadCount=9
+20220329 22414839  + trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=3204 ThreadCount=10
+20220329 22414839  , trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=06d0 ThreadCount=11
+20220329 22414839  - trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2b5c ThreadCount=12
+20220329 22414839  . trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=193c ThreadCount=13
+20220329 22414839  / trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=1d68 ThreadCount=14
+20220329 22414839  0 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=35f4 ThreadCount=15
+20220329 22414840  1 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=31ec ThreadCount=16
+20220329 22414840  2 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=19f4 ThreadCount=17
+20220329 22414840  3 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=22d0 ThreadCount=18
+20220329 22414840  4 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=156c ThreadCount=19
+20220329 22414840  5 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=3790 ThreadCount=20
+20220329 22414840  6 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2e38 ThreadCount=21
+20220329 22414840  7 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=1418 ThreadCount=22
+20220329 22414841  8 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2ab0 ThreadCount=23
+20220329 22414841  9 trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=3678 ThreadCount=24
+20220329 22414842  : trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=2af8 ThreadCount=25
+20220329 22414842  ; trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=34d4 ThreadCount=26
+20220329 22414842  < trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=351c ThreadCount=27
+20220329 22414842  = trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=305c ThreadCount=28
+20220329 22414842  > trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=1910 ThreadCount=29
+20220329 22414842  ? trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=374c ThreadCount=30
+20220329 22414842  @ trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=294c ThreadCount=31
+20220329 22414843  A trace mORMot.TSQLRestServerFullMemory(026e3510) BeginCurrentThread(THttpApiServer) root=root ThreadID=1e4c ThreadCount=32
+20220329 22415648  "  +    mORMot.TSQLRestServerFullMemory(026e3510).URI GET root/Timestamp in=0 B
+20220329 22415648  " srvr  	mORMot.TSQLRestServerFullMemory(026e3510)   GET root/Timestamp Method=200 out=12 B in 21us
+20220329 22415648  " ret   	mORMot.TSQLRestServerFullMemory(026e3510) 135706274424
+20220329 22415648  "  -    00.006.460
+20220329 22415649  #  +    mORMot.TSQLRestServerFullMemory(026e3510).URI GET root/Auth?UserName=User in=0 B
+20220329 22415649  # call  	mORMot.TSQLRestServerFullMemory(026e3510) Auth UserName=User
+20220329 22415649  # srvr  	mORMot.TSQLRestServerFullMemory(026e3510)   GET root/Auth Method=
