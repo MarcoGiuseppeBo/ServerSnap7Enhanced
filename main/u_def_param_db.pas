@@ -104,12 +104,15 @@ type TparamDb=record
   end;
 
 
+
   Tdatabuff = record
      buff:packed array of byte;
      changed:TEvent;
      LastValue:TGetPlcSourceValue_back;
      numDb:integer;
      rifServer:TS7Server;
+     PointerlastWrite:pointer;
+
   end;
 
 

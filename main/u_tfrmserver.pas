@@ -168,6 +168,9 @@ var
   FrmServer: TFrmServer;
   ThreadDisplayData:TThreadDisplayData;
   sema_InReadcallback:TSynLocker;
+
+  dummibuf: array[0..10000] of byte;
+  dummipUsrData : pointer;
 implementation
 
 uses u_change_value,
@@ -212,7 +215,7 @@ begin
         sleep(StrToInt(FrmServer.E_TimeDelay.Text)); //TEST!!!!!!!!
       except;
       end;
-
+    end;
 
 
       Tag:= PTag^;
@@ -227,7 +230,18 @@ begin
          begin
 
             Pt:= pUsrData;
-            move(GDataDb[xparmaDb.indexGDataDb].buff[start],Pt.x[0],len);
+            if Operation = 0 then
+            begin
+                move(GDataDb[xparmaDb.indexGDataDb].buff[start],Pt.x[0],len);
+            end
+            else
+            begin
+                GDataDb[xparmaDb.indexGDataDb].PointerlastWrite:=pUsrData;
+
+//              :=@dummibuf[0];//GDataDb[xparmaDb.indexGDataDb].buff[Start];
+            end;
+
+
     //      pUsrData:= @GDataDb[xparmaDb.indexGDataDb].buff[start];
             {
 
@@ -243,25 +257,38 @@ begin
          end
          else
          begin
-            Pt:= pUsrData;
-            bytestart:= start div 8;
-            bitstart:=start mod 8;
-            for k := 0 to len-1  do
+
+         //// da sistemare scrittura !!!!
+         ///
+         ///
+            if Operation = 0 then
             begin
-               bytex:=extracbit(GDataDb[xparmaDb.indexGDataDb].buff[bytestart],bitstart);
-               Pt.x[k]:=bytex;
-               inc(bitstart);
-               if bitstart>7 then
+               Pt:= pUsrData;
+               bytestart:= start div 8;
+               bitstart:=start mod 8;
+               for k := 0 to len-1  do
                begin
-                  bitstart:=0;
-                  inc(bytestart);
-               end
+                  bytex:=extracbit(GDataDb[xparmaDb.indexGDataDb].buff[bytestart],bitstart);
+                  Pt.x[k]:=bytex;
+                  inc(bitstart);
+                  if bitstart>7 then
+                  begin
+                     bitstart:=0;
+                     inc(bytestart);
+                  end
+               end;
+
+
+            end
+            else
+            begin
+               GDataDb[xparmaDb.indexGDataDb].PointerlastWrite:=pUsrData;
             end;
          end;
          result:=0;
       end;
 
-    end;
+//    end;
   finally
     sema_InReadcallback.unLock;
 
@@ -273,11 +300,17 @@ procedure ServerCallback(usrPtr : pointer; PEvent : PSrvEvent; Size : integer);
 var k:integer;
     xparmaDb:TparamDb;
     numDb:integer;
+    start:integer;
+    len:integer;
+
+
 begin
   // Checks if we are interested in this event.
   // We need to update DB Memo contents only if our DB changed.
   // To avoid this check, an alternative way could be to mask
   // the Server.EventsMask property.
+
+
   if (PEvent^.EvtCode=evcDataWrite) and  // write event
      (PEvent^.EvtRetCode=0) and          // succesfully
      (PEvent^.EvtParam1=S7AreaDB) then   // it's a DB
@@ -285,7 +318,14 @@ begin
      numDb:=PEvent^.EvtParam2;
      if GDizioDataDb.TryGetValue(numDb,xparmaDb) then
      begin
+        start:=PEvent^.EvtParam3;
+        len:=PEvent^.EvtParam4;
+
          GDataDb[xparmaDb.indexGDataDb].changed.SetEvent;
+         if (GDataDb[xparmaDb.indexGDataDb].PointerlastWrite=nil) then
+            raise Exception.Create('Error software  ServerCallback');
+         move(GDataDb[xparmaDb.indexGDataDb].PointerlastWrite^,GDataDb[xparmaDb.indexGDataDb].buff[start],len);
+         GDataDb[xparmaDb.indexGDataDb].PointerlastWrite:=nil;
          // GDizioDataDb.AddOrSetValue(numDb,xparmaDb);
      end;
 
@@ -461,6 +501,7 @@ begin
              GDataDb[GDataDbcount].changed:=tevent.Create(nil,false,false,GDataDbcount.ToString);
              GDataDb[GDataDbcount].numDb:=XparamDb.numdb;
              GDataDb[GDataDbcount].rifServer:=server;
+             GDataDb[GDataDbcount].PointerlastWrite:=nil;
              XparamDb.indexGDataDb:=GDataDbcount;
              XparamDb.tabsheet:=ttabsheet.Create(pc);
              XparamDb.tabsheet.Caption:=XparamDb.desdb+'('+ XparamDb.numdb.tostring+')';

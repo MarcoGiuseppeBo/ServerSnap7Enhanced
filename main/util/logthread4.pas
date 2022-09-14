@@ -108,7 +108,10 @@ uses
   {$IFDEF FPC}
         CritReg_Access_listMess:TRTLCriticalSection;
       {$ELSE}
-        CritReg_Access_listMess:TSynLocker;// : tcriticalSection;
+        CritReg_Access_listMess:TSynLocker;
+    FpathnamefileonDisk: string;
+    procedure SetpathnamefileonDisk(const Value: string);
+    function getpathnamefileonDisk: string;// : tcriticalSection;
       {$ENDIF}
   protected
     procedure Execute; override;
@@ -127,6 +130,7 @@ uses
     procedure SignalEnd();
     procedure setActive(value:boolean);
     property maxsizekbyte : integer read Fmaxsizekbyte write Fmaxsizekbyte;
+    property pathnamefileonDisk:string read getpathnamefileonDisk;
 //    property MyTerminated: boolean read Priv_MyTerminated;
   end;
 procedure getDirLog(var LOG_DIRECTORY:string;var SIZE_LOG:integer);
@@ -247,6 +251,11 @@ begin
   mess_code:=tstringlist.Create;
   self.Resume;
 end;
+procedure TLogThread4.SetpathnamefileonDisk(const Value: string);
+begin
+  FpathnamefileonDisk := Value;
+end;
+
 procedure TLogThread4.SignalEnd();
 begin
   ;
@@ -534,6 +543,11 @@ begin
          result:=false;
       end;
    end;
+end;
+
+function TLogThread4.getpathnamefileonDisk: string;
+begin
+  result:=self.logfilename;
 end;
 
 procedure getDirLog(var LOG_DIRECTORY:string;var SIZE_LOG:integer);
