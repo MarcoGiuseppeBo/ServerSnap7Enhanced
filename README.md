@@ -26,4 +26,5 @@ Build project
 
 Put the correct snap7 dll (32/64)  under exe path or on system path.
 
- 
+
+Thanks to a friend of mine for letting me compile the sources on his pc.
